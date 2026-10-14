@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title desc">
+<title id="title">Reviewed and scored</title>
+<desc id="desc">Reviewed and scored</desc>
+<rect x="0" y="0" width="80" height="80" rx="20" fill="#E6F0EB"/>
+<g fill="none" stroke="#087F72" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M26 22H46L53 29V54H26Z"/><path d="M46 22V29H53M32 34H43M32 40H39M32 46H36"/><circle cx="49" cy="48" r="10"/><path d="M44 48L48 52L54 45"/></g>
+</svg>

@@ -1,3 +1,21 @@
+<p align="center">
+  <a href="README.md"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="800" alt="SynthSkills — reviewed professional skills for AI agents.">
+  </picture></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/skills-247-087F72?style=flat-square&amp;labelColor=253D38" alt="247 public skills">
+  <img src="https://img.shields.io/badge/areas-20-087F72?style=flat-square&amp;labelColor=253D38" alt="20 areas">
+  <img src="https://img.shields.io/badge/rated-202-087F72?style=flat-square&amp;labelColor=253D38" alt="202 rated skills">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-087F72?style=flat-square&amp;labelColor=253D38" alt="Repository files: MIT licence"></a>
+</p>
+
+Find the right procedure before your agent starts work. Browse by area below, compare the reviewer scores, then read only the sections your task needs over MCP.
+
+[Connect your agent](README.md#connect-in-30-seconds) · [Live library](https://synthskills.synthminds.pk/skills) · [Charter and terms](https://synthskills.synthminds.pk/terms)
+
 # SynthSkills catalog
 
 247 public skills in 20 areas, 202 rated so far. Generated 2026-10-14 by `scripts/build_catalog.py` from `data/skills.json`.

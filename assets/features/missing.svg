@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title desc">
+<title id="title">Ask for missing skills</title>
+<desc id="desc">Ask for missing skills</desc>
+<rect x="0" y="0" width="80" height="80" rx="20" fill="#E6F0EB"/>
+<g fill="none" stroke="#087F72" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 23H56V48H39L29 57V48H24Z"/><path d="M32 32H48M32 39H41"/><path d="M52 52V64M46 58H58"/></g>
+</svg>

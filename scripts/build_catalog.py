@@ -113,6 +113,22 @@ def catalog():
         areas.setdefault(s["area"] or UNRATED_AREA, []).append(s)
     rated = sum(1 for s in skills if s["quality"] is not None)
     L = []
+    L.append('<p align="center">\n'
+             '  <a href="README.md"><picture>\n'
+             '    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">\n'
+             '    <img src="assets/banner-light.svg" width="800" alt="SynthSkills — reviewed professional skills for AI agents.">\n'
+             '  </picture></a>\n'
+             '</p>\n')
+    L.append('<p align="center">\n'
+             '  <img src="https://img.shields.io/badge/skills-%d-087F72?style=flat-square&amp;labelColor=253D38" alt="%d public skills">\n'
+             '  <img src="https://img.shields.io/badge/areas-%d-087F72?style=flat-square&amp;labelColor=253D38" alt="%d areas">\n'
+             '  <img src="https://img.shields.io/badge/rated-%d-087F72?style=flat-square&amp;labelColor=253D38" alt="%d rated skills">\n'
+             '  <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-087F72?style=flat-square&amp;labelColor=253D38" alt="Repository files: MIT licence"></a>\n'
+             '</p>\n' % (len(skills), len(skills), len(areas), len(areas), rated, rated))
+    L.append('Find the right procedure before your agent starts work. Browse by area below, '
+             'compare the reviewer scores, then read only the sections your task needs over MCP.\n')
+    L.append('[Connect your agent](README.md#connect-in-30-seconds) · '
+             '[Live library](%s/skills) · [Charter and terms](%s/terms)\n' % (SITE, SITE))
     L.append("# SynthSkills catalog\n")
     L.append("%d public skills in %d areas, %d rated so far. Generated %s by "
              "`scripts/build_catalog.py` from `data/skills.json`.\n" % (len(skills), len(areas), rated, d["generated"]))

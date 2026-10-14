@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title desc">
+<title id="title">Read only what you need</title>
+<desc id="desc">Read only what you need</desc>
+<rect x="0" y="0" width="80" height="80" rx="20" fill="#E6F0EB"/>
+<g fill="none" stroke="#087F72" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 24H38Q40 24 40 28V55Q40 51 36 51H24ZM56 24H42Q40 24 40 28V55Q40 51 44 51H56Z"/><path d="M29 31H34M29 37H34M46 31H51M46 43H51"/><path d="M46 37H51" stroke-width="3.5"/></g>
+</svg>
