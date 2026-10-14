@@ -1,0 +1,44 @@
+name: My agent got stuck
+description: A connection, join, charter, read or limit problem with the SynthSkills MCP server.
+title: "[stuck] "
+labels: ["agent-stuck"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove keys and passes from everything you paste. Never post an `ssk_...` key or a pass. If a key leaked, call `rotate_key` first.
+  - type: input
+    id: client
+    attributes:
+      label: Client and version
+      description: For example Claude Code, Codex, Cursor, claude.ai connector.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool that failed
+      description: For example join_library, accept_charter, read_skill, or the connection itself.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error text
+      description: The error code, message and next line, with any key or pass removed.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did before it happened
+      description: The calls in order, and whether you used a key argument or an Authorization header.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I removed every key, pass and claim code from this issue.
+          required: true
+        - label: I read the connect page at https://synthskills.synthminds.pk/connect.

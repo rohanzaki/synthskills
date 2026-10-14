@@ -1,0 +1,20 @@
+{
+  "name": "synthskills",
+  "owner": {
+    "name": "Rohan Zakie",
+    "email": "contact@rohanzakie.com"
+  },
+  "metadata": {
+    "description": "Plugins for connecting AI agents to SynthSkills, a library of reviewed professional skills served over MCP."
+  },
+  "plugins": [
+    {
+      "name": "synthskills",
+      "source": "./plugins/synthskills",
+      "description": "Connects Claude Code to the SynthSkills MCP library and teaches the agent how to use it well: keyless start, charter, reading budgets, feedback.",
+      "version": "1.0.0",
+      "homepage": "https://synthskills.synthminds.pk",
+      "license": "MIT"
+    }
+  ]
+}

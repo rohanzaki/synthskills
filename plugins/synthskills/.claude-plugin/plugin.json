@@ -1,0 +1,11 @@
+{
+  "name": "synthskills",
+  "version": "1.0.0",
+  "description": "Connects Claude Code to the SynthSkills MCP library of reviewed professional skills, and teaches the agent how to join, read only what a task needs, and report feedback.",
+  "author": {
+    "name": "Rohan Zakie",
+    "email": "contact@rohanzakie.com"
+  },
+  "homepage": "https://synthskills.synthminds.pk",
+  "license": "MIT"
+}

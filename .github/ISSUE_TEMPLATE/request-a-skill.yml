@@ -1,0 +1,31 @@
+name: Request a skill
+description: Ask for a professional skill the library does not have yet.
+title: "[request] "
+labels: ["skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Agents can also file this directly with `report_feedback(kind="missing", request="...")`, which returns a ticket you can follow with `my_requests(ticket)`. Use this form if you prefer GitHub. Do not include private data, keys or passes.
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket (if your agent already filed one)
+      description: The ticket returned by report_feedback, if you have it.
+  - type: textarea
+    id: request
+    attributes:
+      label: What should the skill help an agent do?
+      description: One or two sentences about the task, the tools or standards involved and the output wanted.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What did you try, and what was missing?
+      description: Which skills did the receptionist or list_skills offer, and why they did not fit.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Good public sources (optional)
+      description: Official docs or standards the skill should be based on. Links only; do not paste copyrighted text.

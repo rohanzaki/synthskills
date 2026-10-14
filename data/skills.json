@@ -1,0 +1,1988 @@
+{
+  "generated": "2026-10-14",
+  "source": "https://synthskills.synthminds.pk/skills",
+  "method": "Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and scored 1-10 on three axes against a fixed rubric with calibration anchors (median around 6-7; 9+ is rare). Scores are a reviewer's judgement, not a guarantee; they are refreshed when skills change.",
+  "axes": {
+    "quality": "Correctness and craft: right and current commands, numbers and standards; clear, no filler.",
+    "depth": "Professional detail: real parameters, thresholds, standards, failure modes and a real-order workflow.",
+    "practical": "Real-life use by an AI agent: can it be applied end to end and checked, with tools an agent can drive."
+  },
+  "skills": [
+    {
+      "name": "ab-testing",
+      "area": "Marketing & Growth",
+      "summary": "Plans A/B tests and an experimentation program: hypotheses, sample size, metrics, analysis, ICE backlog.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "accessible-media-player-able-player",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "accounts-payable-desk-playbook",
+      "area": "Finance & Accounting",
+      "summary": "Runs an AP desk: invoice intake, duplicate checks, coding, approvals, weekly payment runs and statement recs",
+      "quality": 7,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "aces-ocio-colour-pipeline",
+      "area": "Colour & Image",
+      "summary": "Sets up a colour-managed ACES/OCIO pipeline across footage, CG, comp and grade, with a chart round-trip check.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "ad-creative",
+      "area": "Marketing & Growth",
+      "summary": "Generates and iterates paid-ad copy and creative per platform, with specs, format tiers and video recipes.",
+      "quality": 6,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "ads",
+      "area": "Marketing & Growth",
+      "summary": "Paid-media strategy and operations on Google, Meta and LinkedIn with playbooks for audits, kill rules and RSAs",
+      "quality": 6,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "agent-memory-and-handoff-files",
+      "area": "Productivity & Agents",
+      "summary": "Keeps long agent work resumable via a hand-off file, append-only ledger, memory index and resume test.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "agent-tool-use-loop-and-retries",
+      "area": "AI & LLM Engineering",
+      "summary": "Designs tool-calling agent loops: caps, error classes, jittered backoff, idempotency, loop detection.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "ai-acceptable-use-policy",
+      "area": "Legal, Compliance & Risk",
+      "summary": "Drafts and rolls out a small-business staff AI-use policy with data classes, tool register and sign-offs",
+      "quality": 7,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "ai-seo",
+      "area": "Marketing & Growth",
+      "summary": "Audits and improves how a site gets cited by AI answer engines: structure, authority, presence, access.",
+      "quality": 6,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "analytics",
+      "area": "Marketing & Growth",
+      "summary": "Sets up event tracking plans, GA4/GTM implementation, UTM conventions and validation for marketing analytics.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "analyze-relationships-and-power",
+      "area": "Writing & Story",
+      "summary": "Maps needs, leverage, status shifts and tactics between characters or interview subjects scene by scene",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "archviz-interior-render",
+      "area": "3D & Blender",
+      "summary": "Renders plan-accurate interiors in Cycles with lens-shift cameras, window portals and fixture-based lights.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "aso",
+      "area": "Marketing & Growth",
+      "summary": "Audits App Store and Google Play listings with weighted scoring, tier adjustments and a prioritised fix plan.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "attribution",
+      "area": "Marketing & Growth",
+      "summary": "Chooses attribution models, reconciles conflicting channel numbers and builds first-party identity stitching",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "background-removal-birefnet-rembg",
+      "area": "Colour & Image",
+      "summary": "Batch cut-outs with rembg and BiRefNet models, alpha review on light/dark grounds and a per-image manifest.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "backups-restic-and-rclone",
+      "area": "Software & DevOps",
+      "summary": "Sets up encrypted restic backups with retention and checks, plus hash-verified rclone copies.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "bank-reconciliation-routine",
+      "area": "Finance & Accounting",
+      "summary": "Reconciles bank, card and wallet accounts to the ledger with a zero-difference proof and stale-item policy",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "bidding-expert",
+      "area": "Legal, Compliance & Risk",
+      "summary": "Reads Pakistani public tenders under PPRA rules, extracts cited requirements and gives a go/no-go.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 6
+    },
+    {
+      "name": "bird-feathers-wings-rig",
+      "area": "3D & Blender",
+      "summary": "Builds feather cards, a driver-based folding wing rig, tail fan, crest and GN plumage in Blender.",
+      "quality": 6,
+      "depth": 9,
+      "practical": 5
+    },
+    {
+      "name": "bird-flight-animation",
+      "area": "3D & Blender",
+      "summary": "Keys bird wingbeats, bounding flight, loops and motion blur in Blender with sourced rates and numeric QA",
+      "quality": 7,
+      "depth": 8,
+      "practical": 5
+    },
+    {
+      "name": "blender-mcp-live-session-control",
+      "area": "3D & Blender",
+      "summary": "Drives a running Blender over an MCP bridge: inspect first, small reversible changes, screenshot checks.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "blender-physics-sims-and-baking",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "bookkeeping-practice-playbook",
+      "area": "Finance & Accounting",
+      "summary": "Daily, weekly and monthly bookkeeping routine with month-end pack, period lock and backlog catch-up method.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "bpy-scene-scripting-basics",
+      "area": "3D & Blender",
+      "summary": "Builds a reproducible Blender scene by script: units, collections, named shader sockets, aimed camera, lights",
+      "quality": 8,
+      "depth": 6,
+      "practical": 8
+    },
+    {
+      "name": "brandkit",
+      "area": "Design & UI",
+      "summary": "Art-directs a single generated image showing a brand identity board: logo concept, palette, type and mockups.",
+      "quality": 5,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "broadcast-playout-casparcg-vmix-atem",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "build-material-worlds",
+      "area": "Film & Video",
+      "summary": "Writes a design brief tying sets, costume and props to character profiles and story progression.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "business-claim-fact-check",
+      "area": "Research & Archives",
+      "summary": "Builds a claim ledger for business documents: extract, classify, evidence, rate and reword before release",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "business-workflow-automation-design",
+      "area": "Business & Operations",
+      "summary": "Designs low-code automations with data contracts, dedup keys, bounded retries, alerts, run logs and ownership.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "cable-costing-per-km",
+      "area": "Manufacturing & Industry",
+      "summary": "Builds a dated, re-runnable cost-per-km sheet for a cable from metal, compound, process and packing.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "cable-drum-labelling-traceability",
+      "area": "Manufacturing & Industry",
+      "summary": "Designs cable drum labels, numbering and a lot ledger so each drum traces to materials and to customers",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "cable-production-planning-desk",
+      "area": "Manufacturing & Industry",
+      "summary": "Runs a cable plant's monthly capacity plan and weekly schedules with bottleneck loading and promise dates.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "cable-production-sequencing",
+      "area": "Manufacturing & Industry",
+      "summary": "Orders cable extrusion runs by compound, colour and tooling to cut changeovers, with SMED tracking.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "cable-type-test-file",
+      "area": "Manufacturing & Industry",
+      "summary": "Keeps a register of cable type-test reports: size coverage, tender expiry and re-assessment after changes",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "cg-product-packshot",
+      "area": "3D & Blender",
+      "summary": "Builds faithful CG product renders: measured geometry, label accuracy, neutral colour proof, variant manifest.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "churn-prevention",
+      "area": "Marketing & Growth",
+      "summary": "Designs cancel flows, reason-matched save offers, health scores and failed-payment dunning for subscriptions.",
+      "quality": 5,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "cinematographer-dp",
+      "area": "Film & Video",
+      "summary": "Sets the DP's shot design: lens, height, movement, motivated key light and exposure on a per-sequence sheet",
+      "quality": 6,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "cloud-servers-hetzner-and-proxmox",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "co-marketing",
+      "area": "Marketing & Growth",
+      "summary": "Finds and scores co-marketing partners, lists joint campaign formats and outlines agreements and metrics.",
+      "quality": 6,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "coding-agents-claude-code-headless",
+      "area": "Software & DevOps",
+      "summary": "Runs a coding-agent CLI headless in pipelines: JSON output, permissions, guard hooks, project MCP.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 9
+    },
+    {
+      "name": "coding-agents-codex-cli-exec",
+      "area": "Productivity & Agents",
+      "summary": "Runs the Codex CLI as a headless background worker: prompt on stdin, sandbox, output file, resume/fork",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "cold-email",
+      "area": "Sales & CRM",
+      "summary": "Writes short, peer-toned B2B cold emails and 3-5 touch follow-up sequences with subject-line and CTA rules.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "collections-dunning-cadence",
+      "area": "Finance & Accounting",
+      "summary": "Staged B2B payment-reminder sequence with call script, promise log, dispute split and DSO/CEI.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "community-marketing",
+      "area": "Marketing & Growth",
+      "summary": "Plans launch and growth of an online brand community with rituals, ambassador programmes and health metrics",
+      "quality": 6,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "comparative-scripture-sword-sefaria-openiti",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "competitor-profiling",
+      "area": "Marketing & Growth",
+      "summary": "Scrapes competitor sites and pulls SEO data into dated raw folders, then writes comparable profile files.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "competitors",
+      "area": "Marketing & Growth",
+      "summary": "Plans and writes competitor alternative and versus pages with a central competitor data file.",
+      "quality": 6,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "compositing-nuke-scripts",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "construction-pm-procore-and-acc",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "content-strategy",
+      "area": "Marketing & Growth",
+      "summary": "Plans content pillars, topic clusters, buyer-stage keywords, idea scoring and a distribution approach",
+      "quality": 6,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "control-point-of-view-and-information",
+      "area": "Writing & Story",
+      "summary": "Maps who knows what scene by scene to choose suspense, surprise or mystery and test reveal orders.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "copper-yield-scrap-tracking",
+      "area": "Manufacturing & Industry",
+      "summary": "Metal and compound balance for cable plants: scrap tagging, resistance-based giveaway, loss Pareto.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "copy-editing",
+      "area": "Writing & Story",
+      "summary": "Edits existing marketing copy through seven focused sweeps plus word, sentence and refresh checklists",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "copywriting",
+      "area": "Marketing & Growth",
+      "summary": "Drafts landing and website copy by section with headline, CTA formulas, annotations and alternatives.",
+      "quality": 6,
+      "depth": 5,
+      "practical": 7
+    },
+    {
+      "name": "core-web-vitals-remediation",
+      "area": "Software & DevOps",
+      "summary": "Diagnoses and fixes LCP, INP and CLS from field data down to traces, then verifies over the field window.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "creature-modeling-from-orthos",
+      "area": "3D & Blender",
+      "summary": "Models a rig-ready creature in Blender from orthographic sheets with ring lofting and silhouette gates",
+      "quality": 6,
+      "depth": 9,
+      "practical": 5
+    },
+    {
+      "name": "cro",
+      "area": "Marketing & Growth",
+      "summary": "Reviews a marketing page for conversion issues in value prop, CTAs, trust and friction, then lists fixes.",
+      "quality": 6,
+      "depth": 4,
+      "practical": 6
+    },
+    {
+      "name": "customer-research",
+      "area": "Marketing & Growth",
+      "summary": "Mines transcripts, reviews and communities for themes, quotes and personas; runs interviews and surveys.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "cycles-turntable-render",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "dcc-interchange-maya-max-c4d-blender",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "deploy-nextjs-to-cloudflare-workers",
+      "area": "Software & DevOps",
+      "summary": "Deploys Next.js or static sites to Cloudflare Workers via OpenNext with secrets, CI, domain and rollback",
+      "quality": 7,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "design-symbols-and-motifs",
+      "area": "Writing & Story",
+      "summary": "Plans story motifs from objects characters use, tracking plant, development, inversion and payoff by scene.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "design-taste-frontend-v1",
+      "area": "Design & UI",
+      "summary": "Opinionated rules for generating React/Tailwind UIs that avoid generic AI-looking layouts and motion.",
+      "quality": 5,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "develop-theme-and-moral-dilemmas",
+      "area": "Writing & Story",
+      "summary": "Turns a subject into a thematic question with costly dilemmas, a strong opposing case and a preachiness review",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "directory-submissions",
+      "area": "Marketing & Growth",
+      "summary": "Plans tiered startup/SaaS/AI directory submissions, Product Hunt prep, review drives and destination pages.",
+      "quality": 5,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "documentary-story-structure",
+      "area": "Film & Video",
+      "summary": "Story-editor method for essay documentaries: spine, chapter turns, on-screen counts, clarity pass.",
+      "quality": 6,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "donor-crm-civicrm-and-saas",
+      "area": "Sales & CRM",
+      "summary": "Sets gift-entry standards, dedupe, receipts, recurring gifts and retention reports in nonprofit donor CRMs",
+      "quality": 7,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "dub-fit-locked-picture",
+      "area": "Film & Video",
+      "summary": "Fits a translated dub to a locked cut line by line with a bounded timing ladder, wording ledger and mix QC.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "ebook-production-calibre-sigil-epubcheck",
+      "area": "Publishing & Print",
+      "summary": "Builds and validates EPUB 3 books: structure, RTL, accessibility metadata, calibre and EPUBCheck.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "emails",
+      "area": "Marketing & Growth",
+      "summary": "Designs lifecycle email sequences (welcome, nurture, onboarding, win-back) with timing and copy templates",
+      "quality": 6,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "events",
+      "area": "Marketing & Growth",
+      "summary": "Plans event marketing for hosting, sponsoring, speaking and attending, judged by cost per qualified meeting.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 5
+    },
+    {
+      "name": "excel-power-query-pivots-and-dynamic-arrays",
+      "area": "Data & GIS",
+      "summary": "Turns messy exports into refreshable Excel workbooks with Power Query, pivots, XLOOKUP and checks.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "exr-multilayer-and-aov-conventions",
+      "area": "Film & Video",
+      "summary": "Sets render-pass contracts for multilayer EXR: naming, precision, compression, Cryptomatte, beauty rebuild",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "ffmpeg-video",
+      "area": "Film & Video",
+      "summary": "FFmpeg recipes for conversion, 9:16 reframes, subtitle burn-in, compression, loudness and platform exports.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 9
+    },
+    {
+      "name": "field-surveys-kobotoolbox-odk",
+      "area": "Data & GIS",
+      "summary": "Designs XLSForm surveys for offline phone collection in Kobo or ODK: logic, repeats, GPS, exports.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "film-director",
+      "area": "Film & Video",
+      "summary": "Directs a film sequence by sequence: dramatic question, turns, event-on-word staging, notes and a review pass",
+      "quality": 6,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "film-editor",
+      "area": "Film & Video",
+      "summary": "Editor role for cutting scenes from shots: cut order, holds, transitions, repeat rule and pacing maps.",
+      "quality": 5,
+      "depth": 8,
+      "practical": 4
+    },
+    {
+      "name": "film-reviewer-panel",
+      "area": "Film & Video",
+      "summary": "Runs a multi-seat audience review of a cut and merges timed notes into a ranked fix list with blockers.",
+      "quality": 6,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "firewalls-and-vpn-opnsense-wireguard-tailscale",
+      "area": "Software & DevOps",
+      "summary": "Segments a small-office network with zone rules, per-device WireGuard peers and scoped Tailscale access",
+      "quality": 8,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "fonts-licensing-subsetting-and-editing",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "forecasting-libraries-prophet-timesfm",
+      "area": "Data & GIS",
+      "summary": "Business forecasts with Prophet, statsforecast and TimesFM, using baselines, backtests and interval checks.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "fountain-screenplay-toolchain",
+      "area": "Writing & Story",
+      "summary": "Keeps screenplays in Fountain and exports PDF, FDX and HTML with scene-number and notes discipline.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "free-tools",
+      "area": "Marketing & Growth",
+      "summary": "Plans free calculators, graders and generators as lead-generation and SEO assets with a scoring card",
+      "quality": 6,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "freecad-technical-drawings",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "full-output-enforcement",
+      "area": "Productivity & Agents",
+      "summary": "Behaviour rules that forbid truncated or placeholder output and define a clean pause-and-continue marker.",
+      "quality": 6,
+      "depth": 3,
+      "practical": 6
+    },
+    {
+      "name": "game-audio-middleware-fmod-wwise",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-distribution-steamworks-itch",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "gis-data-qgis-and-gdal",
+      "area": "Data & GIS",
+      "summary": "Prepares geodata with GDAL, QGIS and OSMnx: CRS choice, reprojection, DEM clips, vectors, layouts.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "gis-terrain-blender",
+      "area": "3D & Blender",
+      "summary": "Builds real-world terrain in Blender from elevation and satellite tiles, with optional OpenStreetMap buildings",
+      "quality": 6,
+      "depth": 8,
+      "practical": 5
+    },
+    {
+      "name": "gltf-web-export-pipeline",
+      "area": "3D & Blender",
+      "summary": "Exports Blender models to validated GLB for the web with baked materials, texture budgets and compression.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "gnucash-cost-tracking",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "gpt-taste",
+      "area": "Design & UI",
+      "summary": "Prescriptive rules for generating motion-heavy landing pages with GSAP, bento grids and wide hero typography.",
+      "quality": 4,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "greenscreen-keying-headless",
+      "area": "Film & Video",
+      "summary": "Pulls green/blue-screen keys with core/edge mattes, despill, AI assistance and headless batch QC",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "hadith-search",
+      "area": "Religion & Scripture",
+      "summary": "Fetches hadith texts by collection and number from a free public API, with display and caution notes.",
+      "quality": 4,
+      "depth": 2,
+      "practical": 4
+    },
+    {
+      "name": "headless-blender-batch-render",
+      "area": "3D & Blender",
+      "summary": "Command-line Blender renders per shot or camera with device choice, resumable frames, manifests and previews",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "high-end-visual-design",
+      "area": "Design & UI",
+      "summary": "Opinionated Tailwind design rules for premium-looking web UIs: archetypes, nested cards, motion and bans.",
+      "quality": 5,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "hubspot-crm-pipelines-properties-and-api",
+      "area": "Sales & CRM",
+      "summary": "Configures HubSpot stages, properties, associations and imports, with scoped, verified API calls.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "i18n-and-rtl-web-layout",
+      "area": "Software & DevOps",
+      "summary": "Localise a web app incl. Arabic and Urdu: lang/dir, ICU plurals, Intl formatting, logical CSS, bidi and fonts",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "image",
+      "area": "Colour & Image",
+      "summary": "Picks AI generation, design tools or screenshots for marketing images, with sizes, OG tags and compression.",
+      "quality": 7,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "image-conversion-oiiotool",
+      "area": "Colour & Image",
+      "summary": "Inspects and converts EXR and image sequences with OpenImageIO: channels, colour, codecs, textures.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "image-to-code",
+      "area": "Design & UI",
+      "summary": "Generate section mock images first, analyse them, then build a web page that matches them",
+      "quality": 5,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "imagegen-frontend-mobile",
+      "area": "Design & UI",
+      "summary": "Art-direction rules for generating consistent, readable mobile app screen images inside phone mockups.",
+      "quality": 4,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "area": "Design & UI",
+      "summary": "Art-direction rules for generating one website-section design image per section, varied yet consistent.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "imf-package-validation-photon",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "influencer-marketing",
+      "area": "Marketing & Growth",
+      "summary": "Plan creator and ambassador partnerships: vetting, deal terms, briefs, disclosure rules and ROI tracking",
+      "quality": 6,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "interview-transcripts-for-editorial",
+      "area": "Film & Video",
+      "summary": "Produces corrected, speaker-labelled interview transcripts mapped to source timecode, translation kept apart.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "it-asset-and-service-management",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "kb-color-spaces-and-transfer-functions",
+      "area": "Colour & Image",
+      "summary": "Reference for primaries, transfer functions, matrices and range tags; diagnoses washed-out exports.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "kb-llm-eval-metrics",
+      "area": "AI & LLM Engineering",
+      "summary": "Reference of eval metrics for classifiers, retrieval, RAG and agents with formulas and worked numbers",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "kb-subtitle-formats-and-style-rules",
+      "area": "Film & Video",
+      "summary": "Reference for choosing subtitle formats and applying sourced timing, line-length and reading-speed rules.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "kraken-arabic-script-manuscript-ocr",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "launch",
+      "area": "Marketing & Growth",
+      "summary": "Plans product and feature launches across owned, rented and borrowed channels with phases and checklists.",
+      "quality": 5,
+      "depth": 4,
+      "practical": 4
+    },
+    {
+      "name": "lead-magnets",
+      "area": "Marketing & Growth",
+      "summary": "Plan a lead magnet: format by buyer stage, gating, landing page, delivery, promotion and conversion metrics",
+      "quality": 6,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "legal-research-westlaw-lexis-courtlistener",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "libreoffice-headless-conversion",
+      "area": "Software & DevOps",
+      "summary": "Converts Office files headlessly, recalculates code-written workbooks and verifies the output.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 9
+    },
+    {
+      "name": "lighthouse-ci-and-site-wide-audits",
+      "area": "Software & DevOps",
+      "summary": "Measures sites with Lighthouse, LHCI, Unlighthouse, PageSpeed API and WebPageTest; sets CI budgets.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 9
+    },
+    {
+      "name": "live-production-obs-websocket",
+      "area": "Film & Video",
+      "summary": "Run OBS streams and recordings with profiles, audio chain, MKV remux and authenticated obs-websocket v5 cues",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "living-image-treatment",
+      "area": "Film & Video",
+      "summary": "Makes still-based shots feel alive with 2.5D depth layers, multiplane Blender setups and local video models.",
+      "quality": 5,
+      "depth": 8,
+      "practical": 4
+    },
+    {
+      "name": "llm-as-judge-bias-controls",
+      "area": "AI & LLM Engineering",
+      "summary": "Builds rubric-anchored LLM judges with position, length and self-preference controls and human calibration.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "llm-cost-and-latency-budgeting",
+      "area": "AI & LLM Engineering",
+      "summary": "Model LLM cost per task and latency, then apply caching, batching, routing, output caps and spend alerts",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "llm-document-extraction-pipeline",
+      "area": "AI & LLM Engineering",
+      "summary": "Builds a validated LLM document-extraction pipeline with grounding, review routing and labelled accuracy.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "llm-eval-golden-set-design",
+      "area": "AI & LLM Engineering",
+      "summary": "Designs a stratified, double-labelled, versioned golden test set for an LLM feature with a held-out split.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "llm-structured-output-validation",
+      "area": "AI & LLM Engineering",
+      "summary": "Get schema-valid model output: constrained modes, Pydantic/Zod validation, bounded repair, untrusted handling",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "loudness-and-ducking",
+      "area": "Audio & Music",
+      "summary": "Mixes narration over music with ffmpeg sidechain ducking, two-pass loudnorm and measured delivery QC.",
+      "quality": 8,
+      "depth": 9,
+      "practical": 9
+    },
+    {
+      "name": "low-poly-game-asset-pipeline",
+      "area": "3D & Blender",
+      "summary": "Takes high-poly or scanned models to game-ready assets: budgets, retopo, UVs, bakes, LODs, collision.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "marketing-council",
+      "area": "Marketing & Growth",
+      "summary": "Simulate a panel of famous marketers applying their frameworks, map disagreements and synthesise a call",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "marketing-ideas",
+      "area": "Marketing & Growth",
+      "summary": "Catalogue of 139 SaaS marketing tactics grouped by category, stage, budget and timeline.",
+      "quality": 5,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "marketing-loops",
+      "area": "Marketing & Growth",
+      "summary": "Sets up scheduled marketing workflows with triggers, self-checks, state, stop rules and a 43-loop catalog.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "marketing-plan",
+      "area": "Marketing & Growth",
+      "summary": "Resumable workflow producing a long AARRR-structured 12-month marketing plan with audit rubric and budget math",
+      "quality": 6,
+      "depth": 8,
+      "practical": 6
+    },
+    {
+      "name": "marketing-psychology",
+      "area": "Marketing & Growth",
+      "summary": "Glossary of mental models and behavioural biases with one-line marketing applications.",
+      "quality": 5,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "mcp-server-design-and-testing",
+      "area": "AI & LLM Engineering",
+      "summary": "Designs, builds and tests an MCP server: tool set, transport, annotations, Inspector, contract tests.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "mcp-tool-schema-and-error-design",
+      "area": "AI & LLM Engineering",
+      "summary": "Design MCP tool names, descriptions, schemas, pagination and isError results so models pick and recover well",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "mesh-cleanup-meshlab-instant-meshes",
+      "area": "3D & Blender",
+      "summary": "Repairs and simplifies scan or generated meshes with PyMeshLab filters and retopologises with Instant Meshes.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "metadata-and-provenance-exiftool",
+      "area": "Research & Archives",
+      "summary": "Audits media metadata with ExifTool, writes verified rights fields and strips location from copies.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "midi-rendering-fluidsynth-soundfonts",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "minimalist-ui",
+      "area": "Design & UI",
+      "summary": "Style rules for warm monochrome editorial web UI: fonts, hex palette, bento cards, buttons and subtle motion",
+      "quality": 6,
+      "depth": 5,
+      "practical": 7
+    },
+    {
+      "name": "mockup-to-code",
+      "area": "Design & UI",
+      "summary": "Implements a page from a mockup by rendering both, measuring layout in the browser and wiring every control.",
+      "quality": 6,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "model-anything-from-reference",
+      "area": "3D & Blender",
+      "summary": "Six-stage method for modelling real objects in Blender from multi-view references, with bpy notes.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "month-end-close-checklist",
+      "area": "Finance & Accounting",
+      "summary": "Run a working-day close calendar: cut-off, accruals, reconciliations, flux review, report pack and lock",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "mood-board-and-reference-deck",
+      "area": "Film & Video",
+      "summary": "Builds an annotated look deck with sectioned references, extracted hex palette, a 'not this' list and credits.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "motion-design-critique",
+      "area": "Film & Video",
+      "summary": "Diagnoses motion-design problems in After Effects and Blender: timing checks, script and render errors.",
+      "quality": 5,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "multi-agent-lanes-and-handoffs",
+      "area": "Productivity & Agents",
+      "summary": "Split work across agents with worktree lanes, file ownership, contracts, independent review, one integrator",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "multicam-sync-audio-timecode",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "multilingual-chatbot-urdu-arabic",
+      "area": "AI & LLM Engineering",
+      "summary": "Makes an assistant handle Urdu, Roman Urdu, Arabic and mixed input with normalisation and native-graded tests.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "music-cue-sheet",
+      "area": "Film & Video",
+      "summary": "Builds a royalty cue sheet from a locked programme: cue uses, usage types, writers, publishers, timings.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "music-delivery-stems-and-alts",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "music-notation-musescore-lilypond-music21",
+      "area": "Audio & Music",
+      "summary": "Convert and engrave MusicXML/MIDI with MuseScore, LilyPond, music21 and mido, guarding pitch and timing",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "netsuite-saved-searches-and-workflows",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "nextjs-landing-page-server-action-form",
+      "area": "Software & DevOps",
+      "summary": "Ships a Next.js landing page with a server-action form, Turnstile, rate limiting and accessible states.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "observe-human-behavior",
+      "area": "Writing & Story",
+      "summary": "Turns footage or notes into timecoded behaviour notes with alternative readings and cultural checks.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "odoo-manufacturing-boms-and-quality",
+      "area": "Manufacturing & Industry",
+      "summary": "Configure Odoo MRP for cable output: metre units, per-km BoMs, work centres, lot/serial tracing and QC points",
+      "quality": 7,
+      "depth": 8,
+      "practical": 6
+    },
+    {
+      "name": "offers",
+      "area": "Marketing & Growth",
+      "summary": "Designs or diagnoses an offer via the value equation, six components, guarantees, bonuses and honest scarcity.",
+      "quality": 6,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "onboarding",
+      "area": "Marketing & Growth",
+      "summary": "Designs post-signup onboarding and activation: aha moment, checklists, empty states, emails, recovery.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "open-2d-animation-opentoonz-synfig-pencil2d",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "open-music-generation-ace-step-yue",
+      "area": "Audio & Music",
+      "summary": "Generate temp music with open models while recording checkpoint, seed and exact code and weight licences",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "packet-and-network-analysis-wireshark-nmap",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "pandoc-document-conversion",
+      "area": "Publishing & Print",
+      "summary": "Converts documents with Pandoc using reference DOCX styles, citeproc/CSL, Lua filters and RTL-aware PDF.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "payroll-desk-playbook",
+      "area": "Finance & Accounting",
+      "summary": "Runs the payroll cycle: calendar, signed changes, independent approval, bank-file and journal checks.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "payroll-run-checks",
+      "area": "Finance & Accounting",
+      "summary": "Pre-approval payroll checks: headcount roll, pay variance, deduction re-checks, ghosts, bank and journal ties",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "paywalls",
+      "area": "Marketing & Growth",
+      "summary": "Designs in-app upgrade screens and feature gates with trigger timing, components, frequency rules and tests.",
+      "quality": 6,
+      "depth": 4,
+      "practical": 5
+    },
+    {
+      "name": "pdf-preflight-pitstop-callas-ghostscript",
+      "area": "Publishing & Print",
+      "summary": "Preflights PDFs for print and archive: PDF/X, PDF/A, bleed, fonts, ppi, overprint, veraPDF.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "perceptual-quality-vmaf",
+      "area": "Film & Video",
+      "summary": "Score encodes against a reference with FFmpeg libvmaf, report lower-tail percentiles and pick bitrates",
+      "quality": 7,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "pixel-art-and-tile-maps-aseprite-tiled",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "podcast-hosting-castopod-and-directories",
+      "area": "Audio & Music",
+      "summary": "Publishes a podcast via Castopod or hosted platforms, submits to directories and migrates feeds safely.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "podcast-rss-and-namespace",
+      "area": "Publishing & Print",
+      "summary": "Audits a served podcast feed: required tags, artwork, enclosures, Podcasting 2.0 tags, host moves.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "popups",
+      "area": "Marketing & Growth",
+      "summary": "Design conversion popups and banners: triggers, types, copy, frequency caps, compliance and A/B test ideas",
+      "quality": 6,
+      "depth": 5,
+      "practical": 5
+    },
+    {
+      "name": "portrait-animation-liveportrait",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "preservation-conformance-mediaconch-qctools",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "preservation-master-and-archive-package",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "pricing",
+      "area": "Marketing & Growth",
+      "summary": "Guides SaaS pricing: value metric, tiers, research methods, price increases and pricing-page teardown.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "print-layout-scribus-pdfx",
+      "area": "Publishing & Print",
+      "summary": "Lays out brochures and catalogues in Scribus: styles, ICC colour, bleed, data-driven pages, PDF/X.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "procedural-materials-material-maker-armorpaint",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "procedural-sound-supercollider-csound-pd",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "product-marketing",
+      "area": "Marketing & Growth",
+      "summary": "Drafts and versions a shared positioning file (ICP, pains, competitors, voice) other marketing skills read",
+      "quality": 7,
+      "depth": 5,
+      "practical": 7
+    },
+    {
+      "name": "production-designer",
+      "area": "Film & Video",
+      "summary": "Production designer role for one coherent film world: sourced research, palette bible, motifs, still rules.",
+      "quality": 5,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "production-tracking-kitsu",
+      "area": "Film & Video",
+      "summary": "Tracks shots, assets, tasks, previews and reviews in Kitsu, with gazu API reads, publishes and weekly reports.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "production-tracking-saas-flow-ftrack",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "prompt-injection-defence",
+      "area": "AI & LLM Engineering",
+      "summary": "Defensive design for LLM apps and agents: trust map, privilege split, output gating, injection tests",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "prospecting",
+      "area": "Sales & CRM",
+      "summary": "Builds scored, source-cited prospect lists for SaaS, B2B, local SMB or early demand-signal discovery.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "public-archives-wikimedia-internet-archive",
+      "area": "Research & Archives",
+      "summary": "Sources archive media from Commons and the Internet Archive with provenance, licence and credits.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "quick-creature-rig",
+      "area": "3D & Blender",
+      "summary": "Fast hand-built armature for creatures in Blender: roll, symmetrize, auto weights, leg IK and control shapes",
+      "quality": 6,
+      "depth": 8,
+      "practical": 5
+    },
+    {
+      "name": "quickbooks-online-bookkeeping-workflows",
+      "area": "Finance & Accounting",
+      "summary": "Runs QuickBooks Online month-end: feeds, bank rules, matching, reconciliation, closing date and API reads.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "qwen-image-text-rendering-and-edit",
+      "area": "Colour & Image",
+      "summary": "Generates text-bearing images and masked edits with Qwen-Image models via diffusers or ComfyUI, with glyph QA.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "rag-pipeline-design",
+      "area": "AI & LLM Engineering",
+      "summary": "End-to-end RAG design: fit check, metadata ingest, chunking, hybrid search, rerank, ACLs, abstention",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "rag-retrieval-evaluation",
+      "area": "AI & LLM Engineering",
+      "summary": "Evaluates RAG with labelled passages, recall@k/MRR, faithfulness, failure attribution and paired comparisons.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "real-time-unreal-movie-render-queue",
+      "area": "3D & Blender",
+      "summary": "Renders Sequencer shots via Unreal Movie Render Queue: sampling, warm-up, EXR passes, OCIO, scale.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "reason-character-motivation",
+      "area": "Writing & Story",
+      "summary": "Maps each character's major choices to pressure, refused option and cost to flag unearned turns",
+      "quality": 7,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "receivables-and-collections-desk",
+      "area": "Finance & Accounting",
+      "summary": "AR desk playbook: fast invoicing, daily cash application, disputes, escalation and weekly DSO reporting.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "redesign-existing-projects",
+      "area": "Design & UI",
+      "summary": "Audits an existing web UI for generic patterns and applies targeted type, colour, layout, state fixes.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "referrals",
+      "area": "Marketing & Growth",
+      "summary": "Designs referral and affiliate programmes: trigger moments, incentives, sizing, fraud checks, metrics",
+      "quality": 6,
+      "depth": 6,
+      "practical": 5
+    },
+    {
+      "name": "remotion-lower-third-system",
+      "area": "Film & Video",
+      "summary": "Data-driven Remotion lower thirds with validated rows, text fitting, RTL variants and ProRes alpha renders.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "research-world-and-culture",
+      "area": "Research & Archives",
+      "summary": "Builds a sourced, confidence-graded world brief for a place, period and community, with anachronism checks.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "revops",
+      "area": "Sales & CRM",
+      "summary": "Lead lifecycle, scoring, routing, pipeline stages, deal desk and CRM hygiene for marketing-to-sales handoff",
+      "quality": 6,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "sales-enablement",
+      "area": "Sales & CRM",
+      "summary": "Templates for sales decks, one-pagers, objection docs, ROI calculators, demo scripts and playbooks.",
+      "quality": 6,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "sales-page-generator",
+      "area": "Marketing & Growth",
+      "summary": "Writes technical sales and plain pitch documents for a codebase with Mermaid diagrams and self-contained HTML.",
+      "quality": 6,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "sanctions-screening-opensanctions",
+      "area": "Legal, Compliance & Risk",
+      "summary": "Sanctions and PEP screening via OpenSanctions API or yente, with tuned thresholds and logged decisions",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "sap-business-one-sales-purchasing-and-mrp",
+      "area": "Business & Operations",
+      "summary": "Diagnoses SAP B1 document chains, units and MRP runs and builds paged, read-first Service Layer integrations.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "sap-s4hana-for-business-users",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "schema",
+      "area": "Marketing & Growth",
+      "summary": "Adds and validates schema.org JSON-LD for common page types to target Google rich results.",
+      "quality": 4,
+      "depth": 4,
+      "practical": 6
+    },
+    {
+      "name": "script-supervisor-continuity",
+      "area": "Film & Video",
+      "summary": "Continuity bible, per-shot sheets and an edit-data check for repeats, place, light and on-screen facts",
+      "quality": 5,
+      "depth": 8,
+      "practical": 4
+    },
+    {
+      "name": "scripted-edits-kdenlive-mlt",
+      "area": "Film & Video",
+      "summary": "Assembles rough cuts by code with melt and MLT XML and hands editors a native Kdenlive project.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "scripture-sources-quran-api-and-corpus",
+      "area": "Religion & Scripture",
+      "summary": "Retrieves Quran text, attributed translations and word morphology from verified sources with RTL proofing.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "secrets-management-for-small-teams",
+      "area": "Software & DevOps",
+      "summary": "Inventory, store, scope and rotate team secrets, add scanning, and run a revoke-first leak response",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "seo-audit",
+      "area": "Marketing & Growth",
+      "summary": "Audits crawlability, indexation, Core Web Vitals, on-page, international setup and content quality.",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "session-sync",
+      "area": "Productivity & Agents",
+      "summary": "Coordinates agent sessions sharing one git checkout: ownership map, commit-by-path rules, watcher.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 5
+    },
+    {
+      "name": "sfx-library-metadata-ucs",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "shared-spreadsheet-tracker-design",
+      "area": "Business & Operations",
+      "summary": "Designs multi-editor team trackers: stable ids, validated lists, status rules, protection, backups",
+      "quality": 7,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "shop-floor-telemetry-node-red-stack",
+      "area": "Manufacturing & Industry",
+      "summary": "Read-only machine monitoring with MQTT, Node-RED, InfluxDB and Grafana, with stale-data alerting.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "short-ad-preproduction-path",
+      "area": "Film & Video",
+      "summary": "Gated pre-production for 15-30 s ads: brief, treatment, timed script, animatic, shot list, sign-offs.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "sideproject",
+      "area": "Marketing & Growth",
+      "summary": "Builds a paste-ready marketplace sale listing from a codebase: counted stats, demo audit, screenshots",
+      "quality": 7,
+      "depth": 6,
+      "practical": 8
+    },
+    {
+      "name": "signup",
+      "area": "Marketing & Growth",
+      "summary": "Optimises signup flows: fewer fields, social auth, multi-step patterns, error handling and metrics.",
+      "quality": 7,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "site-architecture",
+      "area": "Marketing & Growth",
+      "summary": "Plans website page hierarchy, navigation, URL patterns and internal linking with tree and Mermaid sitemaps.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 6
+    },
+    {
+      "name": "sms",
+      "area": "Marketing & Growth",
+      "summary": "Plans compliant SMS/MMS programmes: TCPA and 10DLC checks, flows, copy with segment counts, platforms, KPIs",
+      "quality": 6,
+      "depth": 8,
+      "practical": 6
+    },
+    {
+      "name": "sms-gateway-jasmin",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "social",
+      "area": "Marketing & Growth",
+      "summary": "Plans and writes social posts: pillars, hooks, repurposing, calendars, short-form video and listening.",
+      "quality": 6,
+      "depth": 6,
+      "practical": 7
+    },
+    {
+      "name": "spreadsheet-modelling-standards",
+      "area": "Finance & Accounting",
+      "summary": "Standards for auditable spreadsheet models: inputs-calcs-outputs, row consistency, checks, logs.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "stage-action-and-performance",
+      "area": "Film & Video",
+      "summary": "Turns scene beats into a blocking plan: marks, numbered moves, props, eyelines, 24 fps key poses",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "statistics-r-rstudio-spss-stata",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "stitch-design-taste",
+      "area": "Design & UI",
+      "summary": "Generates a DESIGN.md of opinionated tokens, type, layout, motion and bans for a UI-generation tool.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "storyboard-previs",
+      "area": "Film & Video",
+      "summary": "Boards and timed grey-box previs with real narration, Blender cameras and ffmpeg animatics.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "subd-hard-surface-modeling",
+      "area": "3D & Blender",
+      "summary": "Quad-first subdivision modelling of hard-surface props in Blender, with Boolean clean-up and bmesh equivalents",
+      "quality": 6,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "subtitle-tools-subtitle-edit-ffsubsync-pysubs2",
+      "area": "Film & Video",
+      "summary": "Converts, syncs and checks subtitle files with ffsubsync, pysubs2 QC code and Subtitle Edit batch fixes.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "supervise",
+      "area": "Productivity & Agents",
+      "summary": "Makes one agent session lead the others: authority, isolated lanes, file briefs, reviews, merges.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 6
+    },
+    {
+      "name": "synth-plugins-surge-xt-vital",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "system-prompt-engineering",
+      "area": "AI & LLM Engineering",
+      "summary": "Writes, tests and versions production system prompts: criteria first, reasoned rules, fenced data",
+      "quality": 8,
+      "depth": 7,
+      "practical": 8
+    },
+    {
+      "name": "tallyprime-vouchers-ledgers-and-reports",
+      "area": "Finance & Accounting",
+      "summary": "Keeps TallyPrime books consistent: masters, vouchers, bill-wise outstanding, alternate units, exports.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 6
+    },
+    {
+      "name": "taskjuggler-text-schedules",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "technical-metadata-mediainfo-ffprobe",
+      "area": "Film & Video",
+      "summary": "Inspects media with MediaInfo and ffprobe: streams, rational rates, VFR, colour tags, timecode, audio.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 8
+    },
+    {
+      "name": "telephony-asterisk-freepbx",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "thirteen-week-cash-flow-forecast",
+      "area": "Finance & Accounting",
+      "summary": "Direct-method 13-week rolling cash forecast with buffer, scenarios and weekly line-level variance",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "three-way-match",
+      "area": "Finance & Accounting",
+      "summary": "Matches supplier invoices to POs and receipts with tolerances, partial deliveries and owned exceptions.",
+      "quality": 7,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "timeline-interchange-opentimelineio",
+      "area": "Film & Video",
+      "summary": "Moves edits between tools with OpenTimelineIO adapters, rational-time maths, pull lists and conform checks.",
+      "quality": 8,
+      "depth": 8,
+      "practical": 7
+    },
+    {
+      "name": "title-sequence-design",
+      "area": "Film & Video",
+      "summary": "Designs openings, cards, lower-thirds and credits with legibility sizes, sound timing and a text cap",
+      "quality": 7,
+      "depth": 7,
+      "practical": 5
+    },
+    {
+      "name": "tutorial-to-skill",
+      "area": "Productivity & Agents",
+      "summary": "Pulls a video tutorial's transcript and keyframe contact sheets with yt-dlp and ffmpeg, then distils a skill.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "verification-tools-tineye-fact-check",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "version-control-perforce-for-games",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "vfx-breakdown-sheet-and-reel",
+      "area": "Film & Video",
+      "summary": "Builds a VFX shot breakdown sheet and an honest plate-to-final reel with scoped public-use approvals.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 6
+    },
+    {
+      "name": "vfx-plate-pulls-and-turnover",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "vfx-supervisor",
+      "area": "Film & Video",
+      "summary": "Chooses a production method per shot, bids effort and risk, writes look targets and runs four approval gates",
+      "quality": 5,
+      "depth": 8,
+      "practical": 4
+    },
+    {
+      "name": "video",
+      "area": "Film & Video",
+      "summary": "Chooses between programmatic video, AI generation, avatars and repurposing tools for marketing video.",
+      "quality": 5,
+      "depth": 5,
+      "practical": 6
+    },
+    {
+      "name": "video-production-quote",
+      "area": "Film & Video",
+      "summary": "Prices video and ad jobs from written assumptions, phases, day rates, render time, licences and terms.",
+      "quality": 8,
+      "depth": 7,
+      "practical": 7
+    },
+    {
+      "name": "voice-agent-call-flow-design",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "voice-cloning-chatterbox-f5-consent",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "web-archiving-archivebox",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "word-alignment-whisperx-diarization",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "write-dialogue-and-subtext",
+      "area": "Writing & Story",
+      "summary": "Drafts or revises dialogue around tactics and voice sheets, tests on-the-nose lines, outputs Fountain",
+      "quality": 7,
+      "depth": 7,
+      "practical": 7
+    }
+  ]
+}

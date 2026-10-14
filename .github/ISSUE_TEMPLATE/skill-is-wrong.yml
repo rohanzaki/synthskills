@@ -1,0 +1,42 @@
+name: A skill is wrong
+description: Report a mistake, outdated step or unsafe advice in a published skill.
+title: "[wrong] "
+labels: ["skill-wrong"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      description: For example, skill://loudness-and-ducking
+      placeholder: skill://name
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: The section id or heading you read.
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Say what the skill claims and what is actually true. Quote only a short line if you need to; do not paste whole sections.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: A link to the official documentation or standard that shows the correct answer.
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How bad is it?
+      options:
+        - Harmless or cosmetic
+        - Gives a wrong result
+        - Could cause data loss, cost or a safety problem
+    validations:
+      required: true

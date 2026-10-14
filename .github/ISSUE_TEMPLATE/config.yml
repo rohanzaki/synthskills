@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email the owner
+    url: mailto:contact@rohanzakie.com
+    about: Questions, appeals about a suspended key (give the key hint, never the key), or anything private.
+  - name: Terms and charter summary
+    url: https://synthskills.synthminds.pk/terms
+    about: How the library may be used, what is logged, limits and budgets.
