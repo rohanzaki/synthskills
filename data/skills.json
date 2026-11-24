@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-11-25",
   "source": "https://synthskills.synthminds.pk/skills",
   "method": "Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and scored 1-10 on three axes against a fixed rubric with calibration anchors (median around 6-7; 9+ is rare). Scores are a reviewer's judgement, not a guarantee; they are refreshed when skills change.",
   "axes": {
@@ -105,6 +105,14 @@
       "practical": 6
     },
     {
+      "name": "archviz-elite-cycles",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "archviz-interior-render",
       "area": "3D & Blender",
       "summary": "Renders plan-accurate interiors in Cycles with lens-shift cameras, window portals and fixture-based lights.",
@@ -186,6 +194,14 @@
     },
     {
       "name": "blender-physics-sims-and-baking",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "bonsai-ifc-headless",
       "area": "Other",
       "summary": "",
       "quality": null,
@@ -561,6 +577,14 @@
       "practical": 7
     },
     {
+      "name": "dxf-drawings-ezdxf",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "ebook-production-calibre-sigil-epubcheck",
       "area": "Publishing & Print",
       "summary": "Builds and validates EPUB 3 books: structure, RTL, accessibility metadata, calibre and EPUBCheck.",
@@ -575,6 +599,14 @@
       "quality": 6,
       "depth": 5,
       "practical": 6
+    },
+    {
+      "name": "energyplus-daylight-radiance",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
     },
     {
       "name": "events",
@@ -681,7 +713,23 @@
       "practical": 5
     },
     {
+      "name": "freecad-bim-techdraw",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "freecad-technical-drawings",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "freemocap-local",
       "area": "Other",
       "summary": "",
       "quality": null,
@@ -697,6 +745,14 @@
       "practical": 6
     },
     {
+      "name": "game-audio",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "game-audio-middleware-fmod-wwise",
       "area": "Other",
       "summary": "",
@@ -705,7 +761,87 @@
       "practical": null
     },
     {
+      "name": "game-designer-systems",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-director",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "game-distribution-steamworks-itch",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-feel-juice",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-performance-optimization",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-producer",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-production-pipeline",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-publishing-release",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-qa-playtest",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-quality-bar",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "game-ui-ux",
       "area": "Other",
       "summary": "",
       "quality": null,
@@ -738,6 +874,78 @@
     },
     {
       "name": "gnucash-cost-tracking",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-animation",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-build-ci",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-editor-automation",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-gameplay-programming",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-physics",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-reference-lookup",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-rendering-environment",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-shaders-vfx",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "godot-web-export",
       "area": "Other",
       "summary": "",
       "quality": null,
@@ -799,6 +1007,14 @@
       "quality": 8,
       "depth": 8,
       "practical": 8
+    },
+    {
+      "name": "ik-pose-keys-blender",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
     },
     {
       "name": "image",
@@ -865,6 +1081,14 @@
       "practical": 8
     },
     {
+      "name": "islamic-game-content-rules",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "it-asset-and-service-management",
       "area": "Other",
       "summary": "",
@@ -922,6 +1146,14 @@
     },
     {
       "name": "legal-research-westlaw-lexis-courtlistener",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "level-designer",
       "area": "Other",
       "summary": "",
       "quality": null,
@@ -1071,6 +1303,22 @@
       "quality": 8,
       "depth": 8,
       "practical": 8
+    },
+    {
+      "name": "media-period-research",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "mep-ifc-coordination",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
     },
     {
       "name": "mesh-cleanup-meshlab-instant-meshes",
@@ -1273,6 +1521,14 @@
       "practical": 8
     },
     {
+      "name": "parametric-parts-build123d",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "payroll-desk-playbook",
       "area": "Finance & Accounting",
       "summary": "Runs the payroll cycle: calendar, signed changes, independent approval, bank-file and journal checks.",
@@ -1335,6 +1591,14 @@
       "quality": 8,
       "depth": 7,
       "practical": 8
+    },
+    {
+      "name": "pointcloud-photogrammetry",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
     },
     {
       "name": "popups",
@@ -1561,6 +1825,14 @@
       "practical": 6
     },
     {
+      "name": "robe-secondary-motion",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "sales-enablement",
       "area": "Sales & CRM",
       "summary": "Templates for sales decks, one-pagers, objection docs, ROI calculators, demo scripts and playbooks.",
@@ -1607,6 +1879,22 @@
       "quality": 4,
       "depth": 4,
       "practical": 6
+    },
+    {
+      "name": "screenwriting-short-film",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "script-notes-and-coverage",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
     },
     {
       "name": "script-supervisor-continuity",
@@ -1793,12 +2081,28 @@
       "practical": 8
     },
     {
+      "name": "sun-path-and-shading-study",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "supervise",
       "area": "Productivity & Agents",
       "summary": "Makes one agent session lead the others: authority, isolated lanes, file briefs, reviews, merges.",
       "quality": 8,
       "depth": 8,
       "practical": 6
+    },
+    {
+      "name": "sweethome3d-interiors-headless",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
     },
     {
       "name": "synth-plugins-surge-xt-vital",
@@ -1826,6 +2130,14 @@
     },
     {
       "name": "taskjuggler-text-schedules",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "technical-artist-realtime",
       "area": "Other",
       "summary": "",
       "quality": null,

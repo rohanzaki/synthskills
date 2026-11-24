@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-247-087F72?style=flat-square&amp;labelColor=253D38" alt="247 public skills">
+  <img src="https://img.shields.io/badge/skills-286-087F72?style=flat-square&amp;labelColor=253D38" alt="286 public skills">
   <img src="https://img.shields.io/badge/areas-20-087F72?style=flat-square&amp;labelColor=253D38" alt="20 areas">
   <img src="https://img.shields.io/badge/rated-202-087F72?style=flat-square&amp;labelColor=253D38" alt="202 rated skills">
   <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-087F72?style=flat-square&amp;labelColor=253D38" alt="Repository files: MIT licence"></a>
@@ -18,7 +18,7 @@ Find the right procedure before your agent starts work. Browse by area below, co
 
 # SynthSkills catalog
 
-247 public skills in 20 areas, 202 rated so far. Generated 2026-10-14 by `scripts/build_catalog.py` from `data/skills.json`.
+286 public skills in 20 areas, 202 rated so far. Generated 2026-11-25 by `scripts/build_catalog.py` from `data/skills.json`.
 
 This file lists names, one-line summaries and scores only. The skills themselves are not in this repository: an agent reads them over MCP at `https://synthskills.synthminds.pk/mcp` under the SynthSkills charter and [terms](https://synthskills.synthminds.pk/terms). The live list, with sorting and area filters, is at [https://synthskills.synthminds.pk/skills](https://synthskills.synthminds.pk/skills). Address a skill as `skill://name`.
 
@@ -47,7 +47,7 @@ Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and score
 - [Legal, Compliance & Risk](#legal-compliance--risk): 3
 - [Manufacturing & Industry](#manufacturing--industry): 8
 - [Marketing & Growth](#marketing--growth): 43
-- [Other](#other): 45
+- [Other](#other): 84
 - [Productivity & Agents](#productivity--agents): 7
 - [Publishing & Print](#publishing--print): 5
 - [Religion & Scripture](#religion--scripture): 2
@@ -280,7 +280,9 @@ Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and score
 | Skill | Summary | Quality | Depth | Practical | Overall |
 | --- | --- | --- | --- | --- | --- |
 | `skill://accessible-media-player-able-player` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://archviz-elite-cycles` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://blender-physics-sims-and-baking` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://bonsai-ifc-headless` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://broadcast-playout-casparcg-vmix-atem` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://cloud-servers-hetzner-and-proxmox` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://comparative-scripture-sword-sefaria-openiti` | - | not yet rated | not yet rated | not yet rated | not yet rated |
@@ -288,34 +290,71 @@ Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and score
 | `skill://construction-pm-procore-and-acc` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://cycles-turntable-render` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://dcc-interchange-maya-max-c4d-blender` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://dxf-drawings-ezdxf` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://energyplus-daylight-radiance` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://fonts-licensing-subsetting-and-editing` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://freecad-bim-techdraw` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://freecad-technical-drawings` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://freemocap-local` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-audio` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://game-audio-middleware-fmod-wwise` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-designer-systems` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-director` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://game-distribution-steamworks-itch` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-feel-juice` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-performance-optimization` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-producer` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-production-pipeline` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-publishing-release` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-qa-playtest` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-quality-bar` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://game-ui-ux` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://gnucash-cost-tracking` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-animation` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-build-ci` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-editor-automation` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-gameplay-programming` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-physics` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-reference-lookup` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-rendering-environment` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-shaders-vfx` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://godot-web-export` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://ik-pose-keys-blender` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://imf-package-validation-photon` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://islamic-game-content-rules` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://it-asset-and-service-management` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://kraken-arabic-script-manuscript-ocr` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://legal-research-westlaw-lexis-courtlistener` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://level-designer` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://media-period-research` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://mep-ifc-coordination` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://midi-rendering-fluidsynth-soundfonts` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://multicam-sync-audio-timecode` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://music-delivery-stems-and-alts` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://netsuite-saved-searches-and-workflows` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://open-2d-animation-opentoonz-synfig-pencil2d` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://packet-and-network-analysis-wireshark-nmap` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://parametric-parts-build123d` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://pixel-art-and-tile-maps-aseprite-tiled` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://pointcloud-photogrammetry` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://portrait-animation-liveportrait` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://preservation-conformance-mediaconch-qctools` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://preservation-master-and-archive-package` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://procedural-materials-material-maker-armorpaint` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://procedural-sound-supercollider-csound-pd` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://production-tracking-saas-flow-ftrack` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://robe-secondary-motion` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://sap-s4hana-for-business-users` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://screenwriting-short-film` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://script-notes-and-coverage` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://sfx-library-metadata-ucs` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://sms-gateway-jasmin` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://statistics-r-rstudio-spss-stata` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://sun-path-and-shading-study` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://sweethome3d-interiors-headless` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://synth-plugins-surge-xt-vital` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://taskjuggler-text-schedules` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://technical-artist-realtime` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://telephony-asterisk-freepbx` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://verification-tools-tineye-fact-check` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://version-control-perforce-for-games` | - | not yet rated | not yet rated | not yet rated | not yet rated |
