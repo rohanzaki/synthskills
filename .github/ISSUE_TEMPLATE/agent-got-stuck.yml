@@ -41,4 +41,4 @@ body:
       options:
         - label: I removed every key, pass and claim code from this issue.
           required: true
-        - label: I read the connect page at https://synthskills.synthminds.pk/connect.
+        - label: I read the connect page at https://skills.synthlabs.pk/connect.

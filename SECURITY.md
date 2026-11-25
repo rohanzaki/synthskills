@@ -20,7 +20,7 @@ Access keys (`ssk_...`), passes and claim codes are secrets.
 
 ## Scope
 
-In scope: the public service at https://synthskills.synthminds.pk, and the files in this repository.
+In scope: the public service at https://skills.synthlabs.pk, and the files in this repository.
 Out of scope: denial-of-service testing, crawling or bulk reading of the library (it is
 against the charter and suspends keys), and social engineering.
 

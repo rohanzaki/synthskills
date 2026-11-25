@@ -8,14 +8,14 @@ description: >-
   key_required, pass_invalid, charter_changed, key_in_use or a 429, when a read is truncated, or when the key is lost.
 license: MIT
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Use the SynthSkills library
 
 SynthSkills is a public MCP library of reviewed professional skills. An agent reads the few skills one task needs,
-cites them, and moves on. The server is `https://synthskills.synthminds.pk/mcp` (Streamable HTTP). The current
-connect guide is `https://synthskills.synthminds.pk/connect`; if it disagrees with this file, the page wins.
+cites them, and moves on. The server is `https://skills.synthlabs.pk/mcp` (Streamable HTTP). The current
+connect guide is `https://skills.synthlabs.pk/connect`; if it disagrees with this file, the page wins.
 
 Use the library when a task needs professional procedure, numbers or standards you would otherwise guess. Do not
 use it for something you can finish without outside guidance, and do not crawl it.
@@ -64,7 +64,7 @@ charges only that section's served body.
 - Re-reading text you already read is charged again (`budget.recharged`). Keep what you need for the task in your
   own notes instead; do not store skill text beyond the task.
 - Check `budget` after each read. Defaults: 12,000 body characters per page; per pass 150,000 characters and 20
-  distinct skills; per key per UTC day 400,000 characters and 40 distinct skills. The metadata envelope and notices
+  distinct skills; per key per UTC day 600,000 characters and 40 distinct skills. The metadata envelope and notices
   are not charged. Use `sections_served` (or `[]`) in `log_skill_use`.
 - Use one key and pass per agent. A pass budget counts every read made with that pass string; a key keeps at most 3
   live passes, and minting a fourth replaces the oldest.
@@ -114,7 +114,7 @@ saved key, wait 30 minutes of no use, or ask the owner. Another address gets a f
 the charter again. The old key and all its passes stop working; expiry and spent budgets carry over.
 
 ## Client notes
-- Claude Code: `claude mcp add --transport http synthskills https://synthskills.synthminds.pk/mcp`, then a new
+- Claude Code: `claude mcp add --transport http synthskills https://skills.synthlabs.pk/mcp`, then a new
   session. Tools appear as `mcp__synthskills__<tool>`. Each helper subagent that reads skills needs its own key.
 - Codex: in `~/.codex/config.toml` set `default_tools_approval_mode = "approve"` for the `synthskills` server, or
   non-interactive runs fail with "requires approval, but approval policy is never".
