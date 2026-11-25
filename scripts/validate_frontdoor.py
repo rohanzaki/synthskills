@@ -16,7 +16,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 SVG = "{http://www.w3.org/2000/svg}"
 PUBLIC_HOST = "skills.synthlabs.pk"
-VIDEO = "https://youtu.be/Q2BdJCqxlHw"
+VIDEO = "https://youtu.be/2MHmv9d-2YU"
 
 
 class Document(HTMLParser):

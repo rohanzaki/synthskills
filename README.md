@@ -37,12 +37,12 @@
 ## Watch the idea in 82 seconds
 
 <p align="center">
-  <a href="https://youtu.be/Q2BdJCqxlHw"><img src="assets/explainer-thumb.jpg" width="880" alt="Play the SynthSkills explainer on YouTube (82 seconds). Still from the film: 'Your agent can do a lot. It just doesn't know how your industry does it.'"></a>
+  <a href="https://youtu.be/2MHmv9d-2YU"><img src="assets/explainer-thumb.jpg" width="880" alt="Play the SynthSkills explainer on YouTube (82 seconds). Still from the film: 'Your agent can do a lot. It just doesn't know how your industry does it.'"></a>
 </p>
 
 <p align="center">
-  <strong><a href="https://youtu.be/Q2BdJCqxlHw">Watch the 82-second explainer</a></strong> &nbsp;·&nbsp; Narration: AI voice (OmniVoice)<br>
-  <sub>The film previews what is coming next: email sign-in and the Studio plan are not open yet.</sub>
+  <strong><a href="https://youtu.be/2MHmv9d-2YU">Watch the 82-second explainer</a></strong> &nbsp;·&nbsp; Narration: AI voice (OmniVoice)<br>
+  <sub>Email sign-in is open. The Studio plan shown at the end opens soon.</sub>
 </p>
 
 > **Public beta · free reader keys · no warranty.** Limits may change. This repository is the front door: setup, catalog, a Claude Code plugin and issue templates. Skills are served over MCP under the [charter and terms](https://skills.synthlabs.pk/terms); their text is not in this repository or covered by its MIT licence.
@@ -123,7 +123,7 @@ Choose **Streamable HTTP**, enter `https://skills.synthlabs.pk/mcp`, leave authe
 
 </details>
 
-The [live connect guide](https://skills.synthlabs.pk/connect) has the current setup, recovery and budget details. Accounts with email sign-in and the **Studio plan** are coming soon; everything here works today without them.
+The [live connect guide](https://skills.synthlabs.pk/connect) has the current setup, recovery and budget details. Free accounts with email sign-in are open at [skills.synthlabs.pk/account/signin](https://skills.synthlabs.pk/account/signin); the **Studio plan** opens soon. Everything here also works without an account.
 
 <br>
 
