@@ -379,6 +379,40 @@ def features(theme):
     return svg(W, H, "Built for the task in front of your agent", "Six feature tiles. " + names, [x for x in e if x])
 
 
+# ---------------------------------------------------------------- area chips (as on the website's library filter)
+def areas(theme):
+    c = THEMES[theme]
+    skills = json.loads((ROOT / "data" / "skills.json").read_text(encoding="utf-8"))["skills"]
+    counts = {}
+    for sk in skills:
+        counts[sk["area"]] = counts.get(sk["area"], 0) + 1
+    order = sorted((a for a in counts if a != "Other"), key=lambda a: (-counts[a], a)) + (["Other"] if "Other" in counts else [])
+    chips = [("All areas", len(skills))] + [(a, counts[a]) for a in order]
+    W, h, gap, pad = 1280, 54, 12, 6
+    tints = [LIME, LILAC, APRICOT, SKY]
+    e, x, y = [], 0, pad
+    for i, (name, n) in enumerate(chips):
+        active = i == 0
+        tw = TYPE.width(name, "body", 19, 600)
+        nw = max(34, TYPE.width(str(n), "mono", 15, 500) + 18)
+        w = 10 + nw + 12 + tw + 24
+        if x + w > W:
+            x, y = 0, y + h + gap
+        fill = INK if active else c["white"]
+        edge = None if active else c["line"]
+        tc = "#FFFFFF" if active else c["ink"]
+        e.append(rect(x + 0.75, y + 0.75, w - 1.5, h - 1.5, (h - 1.5) / 2, fill if theme == "light" or not active else "#F4F1E8", edge, 1.5))
+        if active and theme == "dark":
+            tc = INK
+        e.append(rect(x + 10, y + (h - 34) / 2, nw, 34, 17, LIME if active else tints[(i - 1) % 4]))
+        e.append(T(x + 10 + nw / 2, y + h / 2 + 5, str(n), "mono", 15, INK, 500, 0, "middle"))
+        e.append(T(x + 10 + nw + 12, y + h / 2 + 6.5, name, "body", 19, tc, 600))
+        x += w + gap
+    H = y + h + pad
+    desc = "; ".join(f"{name} {n}" for name, n in chips)
+    return svg(W, H, "Skill areas", "The library's areas and how many skills each holds: " + desc, e)
+
+
 def write(path, text):
     path.write_text(text, encoding="utf-8")
 
@@ -395,9 +429,10 @@ def main():
         write(ASSETS / f"banner-{theme}.svg", banner(theme))
         write(ASSETS / f"how-it-works-{theme}.svg", diagram(theme))
         write(ASSETS / f"features-{theme}.svg", features(theme))
+        write(ASSETS / f"areas-{theme}.svg", areas(theme))
         for key, text, primary in BUTTONS:
             write(ASSETS / "buttons" / f"{key}-{theme}.svg", button(theme, text, primary))
-        n += 3 + len(BUTTONS)
+        n += 4 + len(BUTTONS)
     print(f"Built {n} self-contained SVG assets (text outlined, no web fonts).")
 
 

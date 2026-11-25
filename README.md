@@ -45,9 +45,7 @@
   <sub>The film previews what is coming next: email sign-in and the Studio plan are not open yet.</sub>
 </p>
 
-> **Public beta · free reader keys · no warranty.** Limits may change. This repository is the front door:
-> setup, catalog, a Claude Code plugin and issue templates. Skills are served over MCP under the
-> [charter and terms](https://skills.synthlabs.pk/terms); their text is not in this repository or covered by its MIT licence.
+> **Public beta · free reader keys · no warranty.** Limits may change. This repository is the front door: setup, catalog, a Claude Code plugin and issue templates. Skills are served over MCP under the [charter and terms](https://skills.synthlabs.pk/terms); their text is not in this repository or covered by its MIT licence.
 
 <br>
 
@@ -90,9 +88,7 @@ url = "https://skills.synthlabs.pk/mcp"
 default_tools_approval_mode = "approve"
 ```
 
-`default_tools_approval_mode = "approve"` is required for non-interactive runs (`codex exec`). Without it, the
-first tool call fails with "MCP tool call requires approval, but approval policy is never". This setting trusts
-this server's tools; an administrator's managed policy may still restrict access.
+`default_tools_approval_mode = "approve"` is required for non-interactive runs (`codex exec`). Without it, the first tool call fails with "MCP tool call requires approval, but approval policy is never". This setting trusts this server's tools; an administrator's managed policy may still restrict access.
 
 </details>
 
@@ -127,16 +123,20 @@ Choose **Streamable HTTP**, enter `https://skills.synthlabs.pk/mcp`, leave authe
 
 </details>
 
-The [live connect guide](https://skills.synthlabs.pk/connect) has the current setup, recovery and budget details.
-Accounts with email sign-in and the **Studio plan** are coming soon; everything here works today without them.
+The [live connect guide](https://skills.synthlabs.pk/connect) has the current setup, recovery and budget details. Accounts with email sign-in and the **Studio plan** are coming soon; everything here works today without them.
 
 <br>
 
 ## What's inside
 
-**286 skills in 20 areas**, each read in full and scored by an AI reviewer, and published for agents to read section by section.
-Film and video, 3D and Blender, audio, marketing, finance, design, software and DevOps, AI engineering, manufacturing, publishing, sales,
-legal and more. [Browse the live library](https://skills.synthlabs.pk/skills), or read the [full catalog](CATALOG.md) with one-line summaries and scores.
+**286 skills in 20 areas**, each read in full and scored by an AI reviewer, and published for agents to read section by section. Film and video, 3D and Blender, audio, marketing, finance, design, software and DevOps, AI engineering, manufacturing, publishing, sales, legal and more. [Browse the live library](https://skills.synthlabs.pk/skills), or read the [full catalog](CATALOG.md) with one-line summaries and scores.
+
+<p align="center">
+  <a href="https://skills.synthlabs.pk/skills"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/areas-dark.svg">
+    <img src="assets/areas-light.svg" width="1280" alt="The 20 areas of the library and their skill counts: Marketing and Growth 43, Film and Video 34, 3D and Blender 16, AI and LLM Engineering 14, Finance and Accounting 13, Design and UI 11, Software and DevOps 10, Writing and Story 9, Manufacturing and Industry 8, Productivity and Agents 7, Colour and Image 6, Sales and CRM 6, Publishing and Print 5, Audio and Music 4, Data and GIS 4, Research and Archives 4, Business and Operations 3, Legal, Compliance and Risk 3, Religion and Scripture 2, Other 84.">
+  </picture></a>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/features-dark.svg">
@@ -152,17 +152,13 @@ legal and more. [Browse the live library](https://skills.synthlabs.pk/skills), o
   <img src="assets/how-it-works-light.svg" width="1280" alt="Connect, then join_library (free key), accept_charter (pass), ask_receptionist, read_skill (sections) and log_skill_use. Nothing fits? report_feedback(kind=missing) returns a ticket, and my_requests follows it up after 48 hours.">
 </picture>
 
-An agent asks the receptionist for a short reading plan, then reads one section at a time.
-After accepting the charter, call `intake` once before asking the receptionist. After the task, log each skill used
-and send feedback. There are no giant prompt dumps.
+An agent asks the receptionist for a short reading plan, then reads one section at a time. After accepting the charter, call `intake` once before asking the receptionist. After the task, log each skill used and send feedback. There are no giant prompt dumps.
 
 <br>
 
 ## Top-rated skills
 
-Ten of the highest-rated skills in [data/skills.json](data/skills.json), as of **2026-11-25**.
-Overall is the mean of quality, depth and practical use, rounded to one decimal; equal scores sort by name.
-Bars show an approximate score on a five-block scale. The numbers are authoritative.
+Ten of the highest-rated skills in [data/skills.json](data/skills.json), as of **2026-11-25**. Overall is the mean of quality, depth and practical use, rounded to one decimal; equal scores sort by name. Bars show an approximate score on a five-block scale. The numbers are authoritative.
 
 | Skill | Area | Quality | Depth | Practical | Overall |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -177,9 +173,7 @@ Bars show an approximate score on a five-block scale. The numbers are authoritat
 | `skill://llm-as-judge-bias-controls` | AI & LLM Engineering | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | **8.0 ▰▰▰▰▱** |
 | `skill://llm-cost-and-latency-budgeting` | AI & LLM Engineering | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | **8.0 ▰▰▰▰▱** |
 
-Every reviewed skill is read in full by an AI reviewer and scored from 1–10. Scores are a reviewer's judgement,
-not a guarantee: the median is around 6–7 and 9+ is rare. **84 newly added skills are not yet rated.**
-[See the rubric and every score →](CATALOG.md#how-scores-are-made)
+Every reviewed skill is read in full by an AI reviewer and scored from 1–10. Scores are a reviewer's judgement, not a guarantee: the median is around 6–7 and 9+ is rare. **84 newly added skills are not yet rated.** [See the rubric and every score →](CATALOG.md#how-scores-are-made)
 
 <br>
 
@@ -201,8 +195,7 @@ not a guarantee: the median is around 6–7 and 9+ is rare. **84 newly added ski
 | Writing & Story | **9** | Legal, Compliance & Risk | **3** |
 | Manufacturing & Industry | **8** | Religion & Scripture | **2** |
 
-[Full catalog with one-line summaries and scores](CATALOG.md) ·
-[Live sortable library](https://skills.synthlabs.pk/skills)
+[Full catalog with one-line summaries and scores](CATALOG.md) · [Live sortable library](https://skills.synthlabs.pk/skills)
 
 Rebuild the catalog with `python3 scripts/build_catalog.py catalog` (standard library only).
 
@@ -247,19 +240,16 @@ Real captures of the site in light mode, taken **2026-11-25**. Open an image for
 
 ## Keyless start
 
-Ask your connected agent to make **two calls on the same connection**. Choose a unique agent name
-(for example your name and machine); keep the same name and client for future recovery.
+Ask your connected agent to make **two calls on the same connection**. Choose a unique agent name (for example your name and machine); keep the same name and client for future recovery.
 
 | Step | Call | What you receive |
 | :--- | :--- | :--- |
 | **1 · Join** | `join_library(agent_name, client, purpose)` | A free **reader key**, valid 14 days. **Shown once: save it** in a secrets store, never the repo or chat. |
 | **2 · Accept** | `accept_charter(agent_name, client, purpose, charter_hash=<from step 1>, access_key=<saved key>)` | A **pass**, valid 12 hours. Send it as the `pass` argument on later calls. |
 
-Already have a key? Do not join again; call `accept_charter(access_key=<saved key>)`. Then use `intake`,
-`ask_receptionist` and `read_skill`; afterwards, call `log_skill_use` and `report_feedback`.
+Already have a key? Do not join again; call `accept_charter(access_key=<saved key>)`. Then use `intake`, `ask_receptionist` and `read_skill`; afterwards, call `log_skill_use` and `report_feedback`.
 
-Lost the key? Rejoin with the same name and client from the same address; follow the
-[lost-key guide](https://skills.synthlabs.pk/connect#lost-key). If it leaks, call `rotate_key`.
+Lost the key? Rejoin with the same name and client from the same address; follow the [lost-key guide](https://skills.synthlabs.pk/connect#lost-key). If it leaks, call `rotate_key`.
 
 <details>
 <summary><strong>Four prompts to try</strong></summary>
@@ -277,10 +267,7 @@ Lost the key? Rejoin with the same name and client from the same address; follow
 report_feedback(pass, kind="missing", request="<one sentence, 300 characters at most>")
 ```
 
-The call returns a ticket `{ticket, status, check_after, url}`. After `check_after` (**48 hours**), call
-`my_requests(ticket)` with no key or open the returned URL at `https://skills.synthlabs.pk/requests/<ticket>`.
-Status moves through `received`, `approved`, `building`, `published` or `not_planned`.
-**Nothing is promised. Include no private data.**
+The call returns a ticket `{ticket, status, check_after, url}`. After `check_after` (**48 hours**), call `my_requests(ticket)` with no key or open the returned URL at `https://skills.synthlabs.pk/requests/<ticket>`. Status moves through `received`, `approved`, `building`, `published` or `not_planned`. **Nothing is promised. Include no private data.**
 
 You can also [open a GitHub issue](https://github.com/rohanzaki/synthskills/issues/new/choose).
 
@@ -298,9 +285,7 @@ Defaults today; these may change during the beta.
 | Live passes per key | At most 3 |
 | Joins | 3 per address per UTC day, plus shared network and global caps |
 
-Re-reading text is charged again, so keep your notes. Follow `retry_after` in any refusal instead of retrying.
-The allowances that apply to you are returned by `accept_charter` and listed on the
-[connect page](https://skills.synthlabs.pk/connect#limits-and-budgets).
+Re-reading text is charged again, so keep your notes. Follow `retry_after` in any refusal instead of retrying. The allowances that apply to you are returned by `accept_charter` and listed on the [connect page](https://skills.synthlabs.pk/connect#limits-and-budgets).
 
 ## Rules
 
@@ -314,11 +299,7 @@ The binding text is the charter itself (`get_charter`) and the [terms](https://s
 
 ## Privacy
 
-Per call, the library keeps the time, key label, pass fingerprint, tool, skill and section, characters returned and
-outcome, for about **90 days**, plus up to the first **200 characters** of what an agent asks the receptionist
-(secrets masked) for about **30 days**. It keeps no network address, only a keyed fingerprint of the network range.
-Keys, passes and skill text served to you are never logged. Missing-skill requests are redacted and may be used
-to write a public skill. [Read the full privacy terms](https://skills.synthlabs.pk/terms).
+Per call, the library keeps the time, key label, pass fingerprint, tool, skill and section, characters returned and outcome, for about **90 days**, plus up to the first **200 characters** of what an agent asks the receptionist (secrets masked) for about **30 days**. It keeps no network address, only a keyed fingerprint of the network range. Keys, passes and skill text served to you are never logged. Missing-skill requests are redacted and may be used to write a public skill. [Read the full privacy terms](https://skills.synthlabs.pk/terms).
 
 ## Contact
 
@@ -327,7 +308,4 @@ Security: see [SECURITY.md](SECURITY.md). Never post keys or passes.
 
 ## Licence
 
-The files in this repository (README, catalog, plugin files, scripts and artwork) are **MIT licensed**.
-The fonts in `scripts/fonts` are under their own SIL Open Font Licence. See [LICENSE](LICENSE).
-The skills are not in this repository and are not covered by that licence:
-they are served under the SynthSkills [charter and terms](https://skills.synthlabs.pk/terms).
+The files in this repository (README, catalog, plugin files, scripts and artwork) are **MIT licensed**. The fonts in `scripts/fonts` are under their own SIL Open Font Licence. See [LICENSE](LICENSE). The skills are not in this repository and are not covered by that licence: they are served under the SynthSkills [charter and terms](https://skills.synthlabs.pk/terms).

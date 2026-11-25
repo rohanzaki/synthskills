@@ -55,7 +55,7 @@ def rendered(path):
 
 def check_artwork():
     assets = sorted((ROOT / "assets").rglob("*.svg"))
-    assert len(assets) == 12, "Expected banners, diagrams and feature tiles (light and dark) plus six buttons"
+    assert len(assets) == 14, "Expected banners, diagrams, feature tiles and area chips (light and dark) plus six buttons"
     for path in assets:
         tree = ET.parse(path).getroot()
         assert tree.tag == SVG + "svg"
@@ -71,7 +71,7 @@ def check_artwork():
         if path.name.startswith("banner-"):
             assert tree.get("viewBox") == "0 0 1280 540"
         assert path.stat().st_size < 400_000, f"{path.name} is heavy"
-    print("PASS: all 12 SVGs parse; self-contained, text outlined, no fonts or external references.")
+    print("PASS: all 14 SVGs parse; self-contained, text outlined, no fonts or external references.")
 
     thumb = ROOT / "assets" / "explainer-thumb.jpg"
     raw = thumb.read_bytes()
@@ -104,7 +104,7 @@ def check_markdown():
                 assert unquote(link.fragment) in other.ids, f"Missing heading: {reference}"
             references += 1
     readme = documents["README.md"]
-    assert readme.tags["picture"] == 6, "Expected banner, three buttons, feature tiles and diagram"
+    assert readme.tags["picture"] == 7, "Expected banner, three buttons, area chips, feature tiles and diagram"
     assert readme.tags["details"] == 6, "Expected five client tabs and the prompts list"
     source = (ROOT / "README.md").read_text()
     assert VIDEO in source and "AI voice (OmniVoice)" in source, "Explainer link and AI-voice label must stay"
