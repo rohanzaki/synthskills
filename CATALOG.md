@@ -6,21 +6,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-286-087F72?style=flat-square&amp;labelColor=253D38" alt="286 public skills">
-  <img src="https://img.shields.io/badge/areas-20-087F72?style=flat-square&amp;labelColor=253D38" alt="20 areas">
-  <img src="https://img.shields.io/badge/rated-202-087F72?style=flat-square&amp;labelColor=253D38" alt="202 rated skills">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-087F72?style=flat-square&amp;labelColor=253D38" alt="Repository files: MIT licence"></a>
+  <img src="https://img.shields.io/badge/skills-286-D7FF3A?style=flat-square&amp;labelColor=141413" alt="286 public skills">
+  <img src="https://img.shields.io/badge/areas-20-D7FF3A?style=flat-square&amp;labelColor=141413" alt="20 areas">
+  <img src="https://img.shields.io/badge/rated-202-D7FF3A?style=flat-square&amp;labelColor=141413" alt="202 rated skills">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-D7FF3A?style=flat-square&amp;labelColor=141413" alt="Repository files: MIT licence"></a>
 </p>
 
 Find the right procedure before your agent starts work. Browse by area below, compare the reviewer scores, then read only the sections your task needs over MCP.
 
-[Connect your agent](README.md#connect-in-30-seconds) · [Live library](https://synthskills.synthminds.pk/skills) · [Charter and terms](https://synthskills.synthminds.pk/terms)
+[Connect your agent](README.md#connect-in-30-seconds) · [Live library](https://skills.synthlabs.pk/skills) · [Charter and terms](https://skills.synthlabs.pk/terms)
 
 # SynthSkills catalog
 
 286 public skills in 20 areas, 202 rated so far. Generated 2026-11-25 by `scripts/build_catalog.py` from `data/skills.json`.
 
-This file lists names, one-line summaries and scores only. The skills themselves are not in this repository: an agent reads them over MCP at `https://synthskills.synthminds.pk/mcp` under the SynthSkills charter and [terms](https://synthskills.synthminds.pk/terms). The live list, with sorting and area filters, is at [https://synthskills.synthminds.pk/skills](https://synthskills.synthminds.pk/skills). Address a skill as `skill://name`.
+This file lists names, one-line summaries and scores only. The skills themselves are not in this repository: an agent reads them over MCP at `https://skills.synthlabs.pk/mcp` under the SynthSkills charter and [terms](https://skills.synthlabs.pk/terms). The live list, with sorting and area filters, is at [https://skills.synthlabs.pk/skills](https://skills.synthlabs.pk/skills). Address a skill as `skill://name`.
 
 ## How scores are made
 
