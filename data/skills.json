@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-25",
-  "source": "https://synthskills.synthminds.pk/skills",
+  "source": "https://skills.synthlabs.pk/skills",
   "method": "Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and scored 1-10 on three axes against a fixed rubric with calibration anchors (median around 6-7; 9+ is rare). Scores are a reviewer's judgement, not a guarantee; they are refreshed when skills change.",
   "axes": {
     "quality": "Correctness and craft: right and current commands, numbers and standards; clear, no filler.",

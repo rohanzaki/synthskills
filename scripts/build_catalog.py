@@ -6,7 +6,7 @@ Standard library only.
   python3 scripts/build_catalog.py export --scores PATH/TO/skill-scores.json
       Reads the scores file (name, area, summary, quality/depth/practical,
       plus the method text), fetches the live public skill list from
-      https://synthskills.synthminds.pk/skills, and writes data/skills.json.
+      https://skills.synthlabs.pk/skills, and writes data/skills.json.
       The free-text "reason" field in the scores file is never copied.
 
   python3 scripts/build_catalog.py catalog
@@ -29,7 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "skills.json"
 CATALOG = ROOT / "CATALOG.md"
-SITE = "https://synthskills.synthminds.pk"
+SITE = "https://skills.synthlabs.pk"
 UNRATED_AREA = "Other"
 
 
@@ -38,6 +38,22 @@ def fetch_public_rows():
     with urllib.request.urlopen(req, timeout=30) as r:
         page = r.read().decode("utf-8")
     rows = []
+    # Current layout: one <li class="sk"> per skill (name in <code>, area tag, one-line summary).
+    # The page also prints the reviewer's reason (sk-why); it is never read or copied here.
+    for item in re.findall(r'<li class="sk">(.*?)</li>', page, re.S):
+        m = re.search(r"<code>([^<]+)</code>", item)
+        if not m:
+            continue
+        area = re.search(r'class="area-tag[^"]*">([^<]*)<', item)
+        summ = re.search(r'class="sk-sum">([^<]*)<', item)
+        rows.append({
+            "name": html.unescape(m.group(1)).strip(),
+            "area": html.unescape(area.group(1)).strip() if area else "",
+            "summary": html.unescape(summ.group(1)).strip() if summ else "",
+        })
+    if rows:
+        return rows
+    # Older layout: a table with <td class="nm">.
     for cell in re.findall(r'<td class="nm">(.*?)</td>', page, re.S):
         m = re.search(r"<code>([^<]+)</code>", cell)
         if not m:
@@ -120,10 +136,10 @@ def catalog():
              '  </picture></a>\n'
              '</p>\n')
     L.append('<p align="center">\n'
-             '  <img src="https://img.shields.io/badge/skills-%d-087F72?style=flat-square&amp;labelColor=253D38" alt="%d public skills">\n'
-             '  <img src="https://img.shields.io/badge/areas-%d-087F72?style=flat-square&amp;labelColor=253D38" alt="%d areas">\n'
-             '  <img src="https://img.shields.io/badge/rated-%d-087F72?style=flat-square&amp;labelColor=253D38" alt="%d rated skills">\n'
-             '  <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-087F72?style=flat-square&amp;labelColor=253D38" alt="Repository files: MIT licence"></a>\n'
+             '  <img src="https://img.shields.io/badge/skills-%d-D7FF3A?style=flat-square&amp;labelColor=141413" alt="%d public skills">\n'
+             '  <img src="https://img.shields.io/badge/areas-%d-D7FF3A?style=flat-square&amp;labelColor=141413" alt="%d areas">\n'
+             '  <img src="https://img.shields.io/badge/rated-%d-D7FF3A?style=flat-square&amp;labelColor=141413" alt="%d rated skills">\n'
+             '  <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-D7FF3A?style=flat-square&amp;labelColor=141413" alt="Repository files: MIT licence"></a>\n'
              '</p>\n' % (len(skills), len(skills), len(areas), len(areas), rated, rated))
     L.append('Find the right procedure before your agent starts work. Browse by area below, '
              'compare the reviewer scores, then read only the sections your task needs over MCP.\n')
