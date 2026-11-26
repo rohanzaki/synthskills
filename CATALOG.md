@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-286-D7FF3A?style=flat-square&amp;labelColor=141413" alt="286 public skills">
+  <img src="https://img.shields.io/badge/skills-288-D7FF3A?style=flat-square&amp;labelColor=141413" alt="288 public skills">
   <img src="https://img.shields.io/badge/areas-20-D7FF3A?style=flat-square&amp;labelColor=141413" alt="20 areas">
   <img src="https://img.shields.io/badge/rated-202-D7FF3A?style=flat-square&amp;labelColor=141413" alt="202 rated skills">
   <a href="LICENSE"><img src="https://img.shields.io/badge/repo_files-MIT-D7FF3A?style=flat-square&amp;labelColor=141413" alt="Repository files: MIT licence"></a>
@@ -18,7 +18,7 @@ Find the right procedure before your agent starts work. Browse by area below, co
 
 # SynthSkills catalog
 
-286 public skills in 20 areas, 202 rated so far. Generated 2026-11-25 by `scripts/build_catalog.py` from `data/skills.json`.
+288 public skills in 20 areas, 202 rated so far. Generated 2026-11-26 by `scripts/build_catalog.py` from `data/skills.json`.
 
 This file lists names, one-line summaries and scores only. The skills themselves are not in this repository: an agent reads them over MCP at `https://skills.synthlabs.pk/mcp` under the SynthSkills charter and [terms](https://skills.synthlabs.pk/terms). The live list, with sorting and area filters, is at [https://skills.synthlabs.pk/skills](https://skills.synthlabs.pk/skills). Address a skill as `skill://name`.
 
@@ -47,7 +47,7 @@ Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and score
 - [Legal, Compliance & Risk](#legal-compliance--risk): 3
 - [Manufacturing & Industry](#manufacturing--industry): 8
 - [Marketing & Growth](#marketing--growth): 43
-- [Other](#other): 84
+- [Other](#other): 86
 - [Productivity & Agents](#productivity--agents): 7
 - [Publishing & Print](#publishing--print): 5
 - [Religion & Scripture](#religion--scripture): 2
@@ -291,6 +291,7 @@ Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and score
 | `skill://cycles-turntable-render` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://dcc-interchange-maya-max-c4d-blender` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://dxf-drawings-ezdxf` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://electronics-schematics-by-code` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://energyplus-daylight-radiance` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://fonts-licensing-subsetting-and-editing` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://freecad-bim-techdraw` | - | not yet rated | not yet rated | not yet rated | not yet rated |
@@ -319,6 +320,7 @@ Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and score
 | `skill://godot-rendering-environment` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://godot-shaders-vfx` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://godot-web-export` | - | not yet rated | not yet rated | not yet rated | not yet rated |
+| `skill://google-flow-ad-production` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://ik-pose-keys-blender` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://imf-package-validation-photon` | - | not yet rated | not yet rated | not yet rated | not yet rated |
 | `skill://islamic-game-content-rules` | - | not yet rated | not yet rated | not yet rated | not yet rated |

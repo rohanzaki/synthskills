@@ -22,6 +22,7 @@ from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parent.parent
+SKILL_COUNT = len(json.loads((ROOT / "data" / "skills.json").read_text(encoding="utf-8"))["skills"])
 ASSETS = ROOT / "assets"
 FONTS = Path(__file__).resolve().parent / "fonts"
 SITE = "skills.synthlabs.pk"
@@ -217,7 +218,7 @@ def banner(theme):
     e += [rect(64, py, aw, 46, 23, c["white"], c["line"], 1.5), circle(88, py + 23, 6.5, LIME, INK, 1.4),
           T(106, py + 29, addr, "mono", 17, c["ink"], 500)]
     x = 64 + aw + 12
-    for text, fill, tc in [("286 skills", LIME, INK), ("20 areas", c["white"], c["ink"])]:
+    for text, fill, tc in [(f"{SKILL_COUNT} skills", LIME, INK), ("20 areas", c["white"], c["ink"])]:
         w = TYPE.width(text, "display", 18, 700, -0.02) + 36
         e += [rect(x, py, w, 46, 23, fill, INK if fill == LIME else c["line"], 1.4 if fill == LIME else 1.5),
               head(x + w / 2, py + 29, text, 18, tc, 700, "middle")]
@@ -235,7 +236,7 @@ def banner(theme):
           + label(0, 5, "SECTIONS READ 2 OF 14", 13.5, INK, "middle") + "</g>"]
     return svg(W, H, "SynthSkills: the playbooks of a working studio, for AI agents",
                "Banner in the SynthSkills studio-lab brand. Headline: Give your agents the playbooks of a working studio. "
-               f"286 skills in 20 areas, one MCP address, https://{SITE}/mcp. Skill cards for headless-blender-batch-render, "
+               f"{SKILL_COUNT} skills in 20 areas, one MCP address, https://{SITE}/mcp. Skill cards for headless-blender-batch-render, "
                "audio-mixing-mastering and film-dubbing-pipeline; sections read 2 of 14.", [x for x in e if x])
 
 

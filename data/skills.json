@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "source": "https://skills.synthlabs.pk/skills",
   "method": "Each public skill was read in full by an AI reviewer (Claude Opus 5.5) and scored 1-10 on three axes against a fixed rubric with calibration anchors (median around 6-7; 9+ is rare). Scores are a reviewer's judgement, not a guarantee; they are refreshed when skills change.",
   "axes": {
@@ -593,6 +593,14 @@
       "practical": 7
     },
     {
+      "name": "electronics-schematics-by-code",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
       "name": "emails",
       "area": "Marketing & Growth",
       "summary": "Designs lifecycle email sequences (welcome, nurture, onboarding, win-back) with timing and copy templates",
@@ -946,6 +954,14 @@
     },
     {
       "name": "godot-web-export",
+      "area": "Other",
+      "summary": "",
+      "quality": null,
+      "depth": null,
+      "practical": null
+    },
+    {
+      "name": "google-flow-ad-production",
       "area": "Other",
       "summary": "",
       "quality": null,

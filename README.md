@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" width="1280" alt="SynthSkills: give your agents the playbooks of a working studio. 286 skills in 20 areas. Your MCP address is https://skills.synthlabs.pk/mcp.">
+    <img src="assets/banner-light.svg" width="1280" alt="SynthSkills: give your agents the playbooks of a working studio. 288 skills in 20 areas. Your MCP address is https://skills.synthlabs.pk/mcp.">
   </picture>
 </p>
 
@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://skills.synthlabs.pk"><img src="https://img.shields.io/badge/status-public_beta-D7FF3A?style=flat-square&amp;labelColor=141413" alt="Status: public beta"></a>
-  <a href="CATALOG.md"><img src="https://img.shields.io/badge/skills-286-D7FF3A?style=flat-square&amp;labelColor=141413" alt="286 public skills"></a>
+  <a href="CATALOG.md"><img src="https://img.shields.io/badge/skills-288-D7FF3A?style=flat-square&amp;labelColor=141413" alt="288 public skills"></a>
   <a href="https://skills.synthlabs.pk/connect"><img src="https://img.shields.io/badge/MCP-Streamable_HTTP-D7FF3A?style=flat-square&amp;labelColor=141413" alt="MCP: Streamable HTTP"></a>
   <a href="plugins/synthskills"><img src="https://img.shields.io/badge/Claude_Code-plugin-D7FF3A?style=flat-square&amp;labelColor=141413" alt="Claude Code plugin"></a>
   <a href="#connect-in-30-seconds"><img src="https://img.shields.io/badge/client-Codex-D7FF3A?style=flat-square&amp;labelColor=141413" alt="Works with Codex"></a>
@@ -112,7 +112,9 @@ Put this in `.cursor/mcp.json` or `~/.cursor/mcp.json`, merged with your existin
 <details>
 <summary><kbd>claude.ai</kbd> &nbsp; Custom connector</summary>
 
-Add a custom connector with the URL `https://skills.synthlabs.pk/mcp`. Nothing else.
+Add a custom connector with the URL `https://skills.synthlabs.pk/mcp/account`. Keep the detected choices (**Sign in now** and **Use Claude's published identity**) and add no headers. Press **Connect**, sign in with your email on skills.synthlabs.pk and press **Allow**. The connection then follows your account and its plan, and you can revoke it under Account, Agents.
+
+For no account at all, use `https://skills.synthlabs.pk/mcp` with **No sign-in** and follow the [keyless start](#keyless-start).
 
 </details>
 
@@ -129,12 +131,12 @@ The [live connect guide](https://skills.synthlabs.pk/connect) has the current se
 
 ## What's inside
 
-**286 skills in 20 areas**, each read in full and scored by an AI reviewer, and published for agents to read section by section. Film and video, 3D and Blender, audio, marketing, finance, design, software and DevOps, AI engineering, manufacturing, publishing, sales, legal and more. [Browse the live library](https://skills.synthlabs.pk/skills), or read the [full catalog](CATALOG.md) with one-line summaries and scores.
+**288 skills in 20 areas**, each read in full and scored by an AI reviewer, and published for agents to read section by section. Film and video, 3D and Blender, audio, marketing, finance, design, software and DevOps, AI engineering, manufacturing, publishing, sales, legal and more. [Browse the live library](https://skills.synthlabs.pk/skills), or read the [full catalog](CATALOG.md) with one-line summaries and scores.
 
 <p align="center">
   <a href="https://skills.synthlabs.pk/skills"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/areas-dark.svg">
-    <img src="assets/areas-light.svg" width="1280" alt="The 20 areas of the library and their skill counts: Marketing and Growth 43, Film and Video 34, 3D and Blender 16, AI and LLM Engineering 14, Finance and Accounting 13, Design and UI 11, Software and DevOps 10, Writing and Story 9, Manufacturing and Industry 8, Productivity and Agents 7, Colour and Image 6, Sales and CRM 6, Publishing and Print 5, Audio and Music 4, Data and GIS 4, Research and Archives 4, Business and Operations 3, Legal, Compliance and Risk 3, Religion and Scripture 2, Other 84.">
+    <img src="assets/areas-light.svg" width="1280" alt="The 20 areas of the library and their skill counts: Marketing and Growth 43, Film and Video 34, 3D and Blender 16, AI and LLM Engineering 14, Finance and Accounting 13, Design and UI 11, Software and DevOps 10, Writing and Story 9, Manufacturing and Industry 8, Productivity and Agents 7, Colour and Image 6, Sales and CRM 6, Publishing and Print 5, Audio and Music 4, Data and GIS 4, Research and Archives 4, Business and Operations 3, Legal, Compliance and Risk 3, Religion and Scripture 2, Other 86.">
   </picture></a>
 </p>
 
@@ -173,18 +175,18 @@ Ten of the highest-rated skills in [data/skills.json](data/skills.json), as of *
 | `skill://llm-as-judge-bias-controls` | AI & LLM Engineering | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | **8.0 ▰▰▰▰▱** |
 | `skill://llm-cost-and-latency-budgeting` | AI & LLM Engineering | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | 8 ▰▰▰▰▱ | **8.0 ▰▰▰▰▱** |
 
-Every reviewed skill is read in full by an AI reviewer and scored from 1–10. Scores are a reviewer's judgement, not a guarantee: the median is around 6–7 and 9+ is rare. **84 newly added skills are not yet rated.** [See the rubric and every score →](CATALOG.md#how-scores-are-made)
+Every reviewed skill is read in full by an AI reviewer and scored from 1–10. Scores are a reviewer's judgement, not a guarantee: the median is around 6–7 and 9+ is rare. **86 newly added skills are not yet rated.** [See the rubric and every score →](CATALOG.md#how-scores-are-made)
 
 <br>
 
 ## Library at a glance
 
-**286 public skills · 20 areas · 202 rated · 84 not yet rated**<br>
-<sub>Snapshot: 2026-11-25. Skills not yet reviewed are grouped in Other until they are.</sub>
+**288 public skills · 20 areas · 202 rated · 86 not yet rated**<br>
+<sub>Snapshot: 2026-11-26. Skills not yet reviewed are grouped in Other until they are.</sub>
 
 | Area | Skills | Area | Skills |
 | :--- | ---: | :--- | ---: |
-| Other | **84** | Productivity & Agents | **7** |
+| Other | **86** | Productivity & Agents | **7** |
 | Marketing & Growth | **43** | Colour & Image | **6** |
 | Film & Video | **34** | Sales & CRM | **6** |
 | 3D & Blender | **16** | Publishing & Print | **5** |
@@ -210,7 +212,7 @@ Real captures of the site in light mode, taken **2026-11-25**. Open an image for
 <details open>
 <summary><strong>The library</strong> &nbsp; Public scores, sorting and area filters</summary>
 
-<a href="https://skills.synthlabs.pk/skills"><img src="assets/screens/skills.png" width="1100" alt="The SynthSkills library in light mode: 286 published skills, reviewer medians, area filters and the MCP address."></a>
+<a href="https://skills.synthlabs.pk/skills"><img src="assets/screens/skills.png" width="1100" alt="The SynthSkills library in light mode: 288 published skills, reviewer medians, area filters and the MCP address."></a>
 
 </details>
 
